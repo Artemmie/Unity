@@ -6,8 +6,14 @@ using UnityEngine;
 public class Hacker : MonoBehaviour
 {
     int level;
+    string password;
     enum Screen { MainMenu, Password, Win };
     Screen currentScreen;
+
+    string[] level1 = { "books", "aisle", "self" };
+    string[] level2 = { "random", "dick", "fine" };
+    string[] level3 = { "hypnotize", "pepe", "cami" };
+
     void Start ()
     {
         ShowMainMenu();
@@ -27,7 +33,7 @@ public class Hacker : MonoBehaviour
     {
         if (input == "menu") ShowMainMenu();
         else if (currentScreen == Screen.MainMenu) RunMainMenu(input);
-        else if (currentScreen == Screen.Password) StartGame(input);
+        else if (currentScreen == Screen.Password) Password(input);
     }
 
     void RunMainMenu(string input)
@@ -36,33 +42,38 @@ public class Hacker : MonoBehaviour
         else if (input == "1")
         {
             level = 1;
-            Terminal.WriteLine("Welcome to level 1! Insert the password");
-            currentScreen = Screen.Password;
+            StartGame(level1);
         }
         else if (input == "2")
         {
             level = 2;
-            Terminal.WriteLine("Welcome to level 2! Insert the password");
-            currentScreen = Screen.Password;
+            StartGame(level2);
         }
         else if (input == "3")
         {
             level = 3;
-            Terminal.WriteLine("Welcome to level 3! Insert the password");
-            currentScreen = Screen.Password;
+            StartGame(level3);
         }
         else Terminal.WriteLine("Please choose a valid level!");
     }
 
-    void StartGame(string input)
+    void StartGame(String[] levelArr)
     {
-        if (input == "dumbass" && level == 1)
+        Terminal.ClearScreen();
+        Terminal.WriteLine("Insert the password");
+        password = levelArr[UnityEngine.Random.Range(0, levelArr.Length)];
+        currentScreen = Screen.Password;
+    }
+
+    private void Password(string input)
+    {
+        if (input == password && level == 1)
             Terminal.WriteLine("Right password!");
-        else if (input == "donkey" && level == 2)
+        else if (input == password && level == 2)
             Terminal.WriteLine("Right password!");
-        else if (input == "smartass" && level == 3)
+        else if (input == password && level == 3)
             Terminal.WriteLine("Right password!");
         else
-            Terminal.WriteLine("Wrong password");
+            Terminal.WriteLine("Wrong password!");
     }
 }
