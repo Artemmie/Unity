@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 33371836984665910}
   - component: {fileID: 23193101132303774}
   - component: {fileID: 65782989147405608}
-  - component: {fileID: 114551917327788494}
+  - component: {fileID: 114783230070393190}
   m_Layer: 0
   m_Name: Red
   m_TagString: Red Mob
@@ -58,7 +58,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 04a2732c988fe2145931882cfc7135bb, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -97,7 +97,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &114551917327788494
+--- !u!114 &114783230070393190
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -105,7 +105,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1794480966977876}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 77914ec33a1c5fc4b8cbec8df190705b, type: 3}
+  m_Script: {fileID: 11500000, guid: bc2a59e4872982647b449e2fc23b41a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 30
+  speed: 50
+  isDead: 0
+  health: 1
+  armor: 0

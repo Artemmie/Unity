@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 33561987182434418}
   - component: {fileID: 23392818504328504}
   - component: {fileID: 65546157787203834}
-  - component: {fileID: 114144859795494734}
+  - component: {fileID: 114181841050066624}
   m_Layer: 0
   m_Name: Blue
   m_TagString: Blue Mob
@@ -58,7 +58,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 3b3275dca2439f949aba02bf8c258477, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -97,7 +97,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &114144859795494734
+--- !u!114 &114181841050066624
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -105,7 +105,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1776218609564334}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 77914ec33a1c5fc4b8cbec8df190705b, type: 3}
+  m_Script: {fileID: 11500000, guid: 2cecf8fa96c2ec44cb0ab45d4e54cf44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 30
+  speed: 50
+  isDead: 0
+  health: 1
+  armor: 0
