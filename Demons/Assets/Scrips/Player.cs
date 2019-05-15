@@ -9,7 +9,7 @@ public class Player : MonoBehaviour
     [SerializeField] PlayerAnimation pA;
 
     [SerializeField] float jump = 5.0f;
-    [SerializeField] float move, speed = 3.0f;
+    [SerializeField] float move;
 
     // Start is called before the first frame update
     void Start()
@@ -27,7 +27,7 @@ public class Player : MonoBehaviour
 
     void Movement(){
         move = Input.GetAxisRaw("Horizontal");
-        rb.velocity = new Vector2(move * speed, rb.velocity.y);
+        rb.velocity = new Vector2(move, rb.velocity.y);
     }
 
     void Jump()
