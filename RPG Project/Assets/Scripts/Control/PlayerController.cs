@@ -11,7 +11,7 @@ namespace RPG.Control
     void Update()
         {
             if(interactWithCombat()) return;
-            if (interactWithMovement()) return;
+            if(interactWithMovement()) return;
             print ("Nothing to do.");
         }
 
