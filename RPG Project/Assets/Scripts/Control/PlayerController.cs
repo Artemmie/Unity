@@ -3,18 +3,23 @@ using System.Collections.Generic;
 using UnityEngine;
 using RPG.Movement;
 using RPG.Combat;
+using RPG.Core;
 
 namespace RPG.Control
 {
     public class PlayerController : MonoBehaviour
-{
-    void Update()
+    {
+        Health health;
+        private void Start() 
         {
+            health = GetComponent<Health>();
+        }
+        void Update()
+        {
+            if(health.IsDead()) return;
             if(interactWithCombat()) return;
             if(interactWithMovement()) return;
-            print ("Nothing to do.");
         }
-
         private bool interactWithCombat()
         {
             RaycastHit[] hits = Physics.RaycastAll(getMouseRay());
@@ -22,15 +27,15 @@ namespace RPG.Control
             {
                 CombatTarget target = hit.transform.GetComponent<CombatTarget>();
                 if (target == null) continue;
+                if (!GetComponent<Fighter>().canAttack(target.gameObject)) continue;
                 if(Input.GetMouseButtonDown(0))
                 {
-                    GetComponent<Fighter>().Attack(target);
+                    GetComponent<Fighter>().Attack(target.gameObject);
                 }
                 return true;
             }
             return false;
         }
-
         private bool interactWithMovement()
         {
             RaycastHit hit;
@@ -46,7 +51,6 @@ namespace RPG.Control
             }
             return false;
         }
-
         private static Ray getMouseRay()
         {
             return Camera.main.ScreenPointToRay(Input.mousePosition);
