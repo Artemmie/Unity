@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.AI;
 using UnityEngine;
 using RPG.Combat;
 using RPG.Core;
@@ -23,12 +24,16 @@ namespace RPG.Control
         float timeSinceLastSawPlayer = Mathf.Infinity;
         float timeSinceArrivedAtWaypoint = Mathf.Infinity;
         int currentWayPointIndex = 0;
+        float patrolSpeed = 1.66f;
+        float chaseSpeed = 5.00f;
+        UnityEngine.AI.NavMeshAgent navMeshAgent;
 
         private void Start() 
         {
             fighter = GetComponent<Fighter>();
             health = GetComponent<Health>();
             mover = GetComponent<Mover>();
+            navMeshAgent = GetComponent<NavMeshAgent>();
             player = GameObject.FindWithTag("Player");
             guardPosition = transform.position;
         }
@@ -54,11 +59,13 @@ namespace RPG.Control
         private void attackBehavior(GameObject player)
         {
             timeSinceLastSawPlayer = 0;
+            navMeshAgent.speed = chaseSpeed;
             fighter.Attack(player);
         }
 
         private void patrolBehavior()
         {
+            navMeshAgent.speed = patrolSpeed;
             Vector3 nextPosition = guardPosition;
             if (patrolPath != null)
             {
@@ -90,7 +97,7 @@ namespace RPG.Control
             float distanceToPlayer = Vector3.Distance(transform.position, player.transform.position);
             return distanceToPlayer < chaseDistance;
         }
-        private void OnDrawGizmosSelected() //Called by Unity 
+        private void OnDrawGizmos() //Called by Unity 
         {
             Gizmos.color = Color.blue;
             Gizmos.DrawWireSphere(transform.position,chaseDistance);
