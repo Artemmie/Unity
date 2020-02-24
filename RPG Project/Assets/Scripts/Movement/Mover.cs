@@ -9,6 +9,7 @@ namespace RPG.Movement
     {
         NavMeshAgent navMeshAgent;
         Health health;
+        private float maxSpeed = 5.66f;
         private void Start() 
         {
             navMeshAgent = GetComponent<NavMeshAgent>();
@@ -19,13 +20,14 @@ namespace RPG.Movement
             navMeshAgent.enabled = !health.IsDead();
             UpdateAnimator();
         }
-        public void startMoveAction(Vector3 destination)
+        public void startMoveAction(Vector3 destination, float speedFraction)
         {
             GetComponent<ActionScheduler>().StartAction(this);
-            moveTo(destination);
+            moveTo(destination, speedFraction);
         }
-        public void moveTo(Vector3 destination)
+        public void moveTo(Vector3 destination, float speedFraction)
         {
+            navMeshAgent.speed = maxSpeed * Mathf.Clamp01(speedFraction);
             GetComponent<NavMeshAgent>().destination = destination;
             navMeshAgent.isStopped = false;
         }

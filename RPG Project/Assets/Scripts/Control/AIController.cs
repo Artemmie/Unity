@@ -1,11 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine.AI;
-using UnityEngine;
+﻿using UnityEngine;
 using RPG.Combat;
 using RPG.Core;
 using RPG.Movement;
-using System;
 
 namespace RPG.Control
 {
@@ -16,6 +12,8 @@ namespace RPG.Control
         [SerializeField] float waypointDwellTime = 3f;
         [SerializeField] float waypointTolerance = 1f;
         [SerializeField] PatrolPath patrolPath;
+        [Range(0,1)]
+        [SerializeField] float patrolSpeed = 0.2f;
         Fighter fighter;
         Health health;
         Mover mover;
@@ -24,16 +22,12 @@ namespace RPG.Control
         float timeSinceLastSawPlayer = Mathf.Infinity;
         float timeSinceArrivedAtWaypoint = Mathf.Infinity;
         int currentWayPointIndex = 0;
-        float patrolSpeed = 1.66f;
-        float chaseSpeed = 5.00f;
-        UnityEngine.AI.NavMeshAgent navMeshAgent;
 
         private void Start() 
         {
             fighter = GetComponent<Fighter>();
             health = GetComponent<Health>();
             mover = GetComponent<Mover>();
-            navMeshAgent = GetComponent<NavMeshAgent>();
             player = GameObject.FindWithTag("Player");
             guardPosition = transform.position;
         }
@@ -59,20 +53,18 @@ namespace RPG.Control
         private void attackBehavior(GameObject player)
         {
             timeSinceLastSawPlayer = 0;
-            navMeshAgent.speed = chaseSpeed;
             fighter.Attack(player);
         }
 
         private void patrolBehavior()
         {
-            navMeshAgent.speed = patrolSpeed;
             Vector3 nextPosition = guardPosition;
             if (patrolPath != null)
             {
                 if (atWaypoint()) cycleWayPoint();
                 nextPosition = getCurrentWaypoint();
             }
-            if (timeSinceArrivedAtWaypoint > waypointDwellTime) mover.startMoveAction(nextPosition);
+            if (timeSinceArrivedAtWaypoint > waypointDwellTime) mover.startMoveAction(nextPosition, patrolSpeed);
         }
 
         private Vector3 getCurrentWaypoint()

@@ -9,19 +9,13 @@ namespace RPG.Combat
         [SerializeField] float timeBetweenAttacks = 1f;
         [SerializeField] float weaponDamage = 5f;
         Health target;
-        // Health prevTarget = null;
         float timeSinceLastAttack = Mathf.Infinity;
         private void Update()
         {
             timeSinceLastAttack += Time.deltaTime;
             if (target == null) return;
             if (target.IsDead()) return;
-            // if (newTarget(target)) 
-            // {
-            //     stopAttack();
-            //     return;
-            // }
-            if (!getIsInRange()) GetComponent<Mover>().moveTo(target.transform.position);
+            if (!getIsInRange()) GetComponent<Mover>().moveTo(target.transform.position, 1f);
             else
             {
                 GetComponent<Mover>().Cancel();
@@ -36,9 +30,7 @@ namespace RPG.Combat
                 //This will trigger the hit() event
                 triggerAttack();
                 timeSinceLastAttack = 0f;
-
             }
-
         }
         private void triggerAttack()
         {
@@ -76,18 +68,5 @@ namespace RPG.Combat
             GetComponent<Animator>().ResetTrigger("Attack");
             GetComponent<Animator>().SetTrigger("stopAttack");
         }
-
-
-        // private bool newTarget(Health newTarget)
-        // {
-        //     print("1: " + newTarget);
-        //     print("2: " + prevTarget);
-        //     if (newTarget != prevTarget)
-        //     {
-        //         prevTarget = newTarget;
-        //         return true;
-        //     }
-        //     return false;
-        // }
     }
 }

@@ -425,9 +425,9 @@ GameObject:
   - component: {fileID: 7625848155711461300}
   - component: {fileID: 3295736137350984081}
   - component: {fileID: 3239145417080330115}
-  - component: {fileID: 7625848155711461297}
   - component: {fileID: 7625848155711461296}
   - component: {fileID: 7625848155711461304}
+  - component: {fileID: 7135966161601325108}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -550,20 +550,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!136 &7625848155711461297
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2119483737317393889}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.24
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0.9, z: 0}
 --- !u!195 &7625848155711461296
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -603,6 +589,20 @@ MonoBehaviour:
   waypointDwellTime: 3
   waypointTolerance: 1
   patrolPath: {fileID: 0}
+  patrolSpeed: 0.2
+--- !u!65 &7135966161601325108
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2119483737317393889}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.46, y: 1.8, z: 0.28}
+  m_Center: {x: 0, y: 0.9, z: 0}
 --- !u!1 &2119483737317393921
 GameObject:
   m_ObjectHideFlags: 0
