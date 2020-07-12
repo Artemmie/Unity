@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96426bf597beafe4cbd24fc890a64fd4, type: 3}
+  m_Name: StartingState
+  m_EditorClassIdentifier: 
+  storyText: 'You are awaken in the dark room, everything seems to be broken. You
+    don''t remember who you are, nor how you ended up here. After lurking around
+    you finally found a way out of the room. As you were about to leave you noticed
+    a group of people standing outside, some of them are heavily armed with weird
+    looking firearms. You noticed a patch that looks like a steam on their shoulders.
+
+
+    What
+    shall you do?
+
+    1. Call for help.
+
+    2. Try to sneak out quietly.
+
+'
+  nextStates:
+  - {fileID: 11400000, guid: beb1466c47d2af54d81f0ca659ebf751, type: 2}
+  - {fileID: 11400000, guid: ed874d8ab1cc16a4d8c8a616900616d3, type: 2}
