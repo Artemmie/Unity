@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Camera Collider
   - Map Collider
+  - Dungeon
   layers:
   - Default
   - TransparentFX

@@ -1,7 +1,10 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - DungeonGeneration
+    - EnterDoor
     - FixedJoystick
+    - FloorTiles
     - PixelPerfectCamera
     - PlayerAnimation
     - PlayerMovement
@@ -18,7 +21,6 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationBlendTree.Node
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
     - UnityEditor.Graphs.AnimatorControllerTool
@@ -33,7 +35,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
   sceneClasses:
-    Assets/Scenes/Demo.unity:
+    Assets/Scenes/Level V1.0.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -65,11 +67,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11150}
     - Class: 114
-      Script: {instanceID: 11174}
+      Script: {instanceID: 11152}
     - Class: 114
-      Script: {instanceID: 11224}
+      Script: {instanceID: 11154}
     - Class: 114
-      Script: {instanceID: 12180}
+      Script: {instanceID: 11226}
     - Class: 114
       Script: {instanceID: 12448}
     - Class: 114
@@ -80,6 +82,12 @@ ScriptsOnlyBuild:
       Script: {instanceID: 14090}
     - Class: 114
       Script: {instanceID: 14272}
+    - Class: 114
+      Script: {instanceID: 18480}
+    - Class: 114
+      Script: {instanceID: 314354}
+    - Class: 114
+      Script: {instanceID: 369362}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -105,16 +113,22 @@ ScriptsOnlyBuild:
     className: Image
   - hash:
       serializedVersion: 2
-      Hash: ce669872a2be11bc686ea22961d8a3bb
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Joystick
+      Hash: cc4274b586df3c02688bac01b88bd16c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
   - hash:
       serializedVersion: 2
       Hash: 4bc4346a71a8df53a6b106f68ef3a190
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: ce669872a2be11bc686ea22961d8a3bb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Joystick
   - hash:
       serializedVersion: 2
       Hash: c42672c997f8be6b1aa86a927ebea785
@@ -301,12 +315,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Shadow
-  - hash:
-      serializedVersion: 2
-      Hash: cc4274b586df3c02688bac01b88bd16c
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.EventSystems
-    className: EventSystem
   - hash:
       serializedVersion: 2
       Hash: b424b4eeb810aecb0ff91c62639241e9
@@ -661,7 +669,25 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: a7aff785973d352787200eb5cbffff82
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FloorTiles
+  - hash:
+      serializedVersion: 2
+      Hash: 63cacdc268f314519fc44e2e6fc3b9c7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnterDoor
+  - hash:
+      serializedVersion: 2
+      Hash: 9cd37693af109810ba5502a419d897e7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DungeonGeneration
   platform: 13
   scenePathNames:
-  - Assets/Scenes/Demo.unity
-  playerPath: D:/Github/Unity/DungeonGameV0.1/TEST.apk
+  - Assets/Scenes/Level V1.0.unity
+  playerPath: C:/Users/artem/OneDrive/Desktop/TestBuildV04.apk
