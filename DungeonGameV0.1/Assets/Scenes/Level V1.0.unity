@@ -131,6 +131,7 @@ GameObject:
   m_Component:
   - component: {fileID: 448873014}
   - component: {fileID: 448873015}
+  - component: {fileID: 448873016}
   m_Layer: 0
   m_Name: Dungeon Generator
   m_TagString: Dungeon
@@ -165,6 +166,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   numberOfRooms: 30
+--- !u!114 &448873016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 448873013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 096b17d3e3baf894d974c22c1bbf58b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dungeonGenerationData: {fileID: 11400000, guid: 622fbbe859f5c974ba3921b10fc81553,
+    type: 2}
 --- !u!1001 &649567055
 PrefabInstance:
   m_ObjectHideFlags: 0

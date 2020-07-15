@@ -1,13 +1,19 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - DungeonGeneration
-    - EnterDoor
+    - CameraController
+    - Door
+    - DungeonGenerationData
+    - DungeonGenerator
     - FixedJoystick
     - FloorTiles
-    - PixelPerfectCamera
+    - GridController
+    - ObjectRoomSpawner
     - PlayerAnimation
     - PlayerMovement
+    - RoomController
+    - RoomV2
+    - SpawnerData
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Tilemap.Editor.dll:
@@ -35,7 +41,114 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
   sceneClasses:
-    Assets/Scenes/Level V1.0.unity:
+    Assets/Scenes/Dungeon/BasementBasic1.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 50
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 68
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 15514}
+    - Class: 114
+      Script: {instanceID: 16422}
+    - Class: 114
+      Script: {instanceID: 16818}
+    - Class: 114
+      Script: {instanceID: 17872}
+    - Class: 114
+      Script: {instanceID: 17896}
+    - Class: 114
+      Script: {instanceID: 18190}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    Assets/Scenes/Dungeon/BasementEmpty.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 68
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16422}
+    - Class: 114
+      Script: {instanceID: 17872}
+    - Class: 114
+      Script: {instanceID: 18190}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    Assets/Scenes/Dungeon/BasementEnd.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 68
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16422}
+    - Class: 114
+      Script: {instanceID: 17872}
+    - Class: 114
+      Script: {instanceID: 18190}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    Assets/Scenes/Dungeon/BasementMain.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -52,8 +165,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 61
       Script: {instanceID: 0}
-    - Class: 68
-      Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
     - Class: 81
@@ -65,29 +176,29 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11150}
+      Script: {instanceID: 15418}
     - Class: 114
-      Script: {instanceID: 11152}
+      Script: {instanceID: 15468}
     - Class: 114
-      Script: {instanceID: 11154}
+      Script: {instanceID: 15766}
     - Class: 114
-      Script: {instanceID: 11226}
+      Script: {instanceID: 16198}
     - Class: 114
-      Script: {instanceID: 12448}
+      Script: {instanceID: 16358}
     - Class: 114
-      Script: {instanceID: 13330}
+      Script: {instanceID: 16430}
     - Class: 114
-      Script: {instanceID: 13654}
+      Script: {instanceID: 16692}
     - Class: 114
-      Script: {instanceID: 14090}
+      Script: {instanceID: 16744}
     - Class: 114
-      Script: {instanceID: 14272}
+      Script: {instanceID: 17434}
     - Class: 114
-      Script: {instanceID: 18480}
+      Script: {instanceID: 17564}
     - Class: 114
-      Script: {instanceID: 314354}
+      Script: {instanceID: 17886}
     - Class: 114
-      Script: {instanceID: 369362}
+      Script: {instanceID: 18500}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -104,31 +215,52 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
+    Assets/Scenes/Dungeon/BasementStart.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 68
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16422}
+    - Class: 114
+      Script: {instanceID: 17872}
+    - Class: 114
+      Script: {instanceID: 18190}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
   scriptHashData:
-  - hash:
-      serializedVersion: 2
-      Hash: 89f9a1b4c64db9559e39f4a2e3bfaadd
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Image
-  - hash:
-      serializedVersion: 2
-      Hash: cc4274b586df3c02688bac01b88bd16c
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.EventSystems
-    className: EventSystem
-  - hash:
-      serializedVersion: 2
-      Hash: 4bc4346a71a8df53a6b106f68ef3a190
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: CanvasScaler
   - hash:
       serializedVersion: 2
       Hash: ce669872a2be11bc686ea22961d8a3bb
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Joystick
+  - hash:
+      serializedVersion: 2
+      Hash: 4bc4346a71a8df53a6b106f68ef3a190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
   - hash:
       serializedVersion: 2
       Hash: c42672c997f8be6b1aa86a927ebea785
@@ -153,6 +285,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: c6efdf262f3d16a6e31eefa545b29db5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SpawnerData
   - hash:
       serializedVersion: 2
       Hash: e7a73f5f78ba6445195ec23b74a1ce2d
@@ -185,10 +323,22 @@ ScriptsOnlyBuild:
     className: Text
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DungeonCrawlController
+  - hash:
+      serializedVersion: 2
       Hash: 499fd23433e68e265d153aa6b95d0047
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 63cacdc268f314519fc44e2e6fc3b9c7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnterDoor
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -201,6 +351,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 89f9a1b4c64db9559e39f4a2e3bfaadd
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -305,6 +461,12 @@ ScriptsOnlyBuild:
     className: AnimationPlayableAsset
   - hash:
       serializedVersion: 2
+      Hash: fc31e4253b430340d3d2531dd6ddc027
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DungeonGenerator
+  - hash:
+      serializedVersion: 2
       Hash: aba7b2852ef61d175dd9602e7723d5e5
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -315,6 +477,24 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 369583cf1bbabe78b76c0bbc47d2664e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DungeonGenerationData
+  - hash:
+      serializedVersion: 2
+      Hash: 1117149c3af548277aa4795662609f41
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RoomV2
+  - hash:
+      serializedVersion: 2
+      Hash: cc4274b586df3c02688bac01b88bd16c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
   - hash:
       serializedVersion: 2
       Hash: b424b4eeb810aecb0ff91c62639241e9
@@ -371,16 +551,22 @@ ScriptsOnlyBuild:
     className: TMP_Asset
   - hash:
       serializedVersion: 2
+      Hash: 10720dfa145193d470cc4615124f58da
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RoomController
+  - hash:
+      serializedVersion: 2
       Hash: d4020bafcd3ccbb5601a6e6c8ac78be0
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: ScrollRect
   - hash:
       serializedVersion: 2
-      Hash: be2d1663d6bc8ce39ce9c8dea6a963c7
+      Hash: af0ae9865b90fabd9e82e906229d2d27
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: Scroller
+    className: GridController
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -395,10 +581,10 @@ ScriptsOnlyBuild:
     className: SpriteSkinEntity
   - hash:
       serializedVersion: 2
-      Hash: e21b35ea9a9b11161adb714c4da797e2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: PixelSnap
+    className: DungeonCrawler
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -455,6 +641,12 @@ ScriptsOnlyBuild:
     className: SignalReceiver
   - hash:
       serializedVersion: 2
+      Hash: d72f7ad1c9b1411f0777872c80317ba1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameraController
+  - hash:
+      serializedVersion: 2
       Hash: 5ad4aa237d47ac2bab17bacb672edf7a
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -491,12 +683,6 @@ ScriptsOnlyBuild:
     className: Physics2DRaycaster
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CanvasScreenSpaceScaler
-  - hash:
-      serializedVersion: 2
       Hash: 824e8d4cb47ffd88ddf959dbd4526585
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -527,6 +713,12 @@ ScriptsOnlyBuild:
     className: AudioTrack
   - hash:
       serializedVersion: 2
+      Hash: 8af352a209a5ad4e715437339c2d4ca8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Door
+  - hash:
+      serializedVersion: 2
       Hash: ae83e830e7a90c0aff918c4c2e520825
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -539,10 +731,22 @@ ScriptsOnlyBuild:
     className: JoystickPlayerExample
   - hash:
       serializedVersion: 2
+      Hash: 03b0adf2123981f481cb122965446d62
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ObjectRoomSpawner
+  - hash:
+      serializedVersion: 2
       Hash: 88cc9df3c6fc697bfbeacd24c0d6f2d7
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools
     className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 9cd37693af109810ba5502a419d897e7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DungeonGeneration
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -557,10 +761,10 @@ ScriptsOnlyBuild:
     className: TMP_StyleSheet
   - hash:
       serializedVersion: 2
-      Hash: 9b7813c62b7f87aa41ff7dfa25c3fbcf
+      Hash: b1e794211f270423a8b09d8d4142a0d4
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: PixelPerfectCamera
+    className: FloorTiles
   - hash:
       serializedVersion: 2
       Hash: 21d73eda81c18eacd2c91ad5dfaf2e32
@@ -603,12 +807,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SubMesh
-  - hash:
-      serializedVersion: 2
-      Hash: 8b7ab3e01e398137620c0bc31ff095be
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CanvasWorldScaler
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -669,25 +867,11 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: a7aff785973d352787200eb5cbffff82
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: FloorTiles
-  - hash:
-      serializedVersion: 2
-      Hash: 63cacdc268f314519fc44e2e6fc3b9c7
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: EnterDoor
-  - hash:
-      serializedVersion: 2
-      Hash: 9cd37693af109810ba5502a419d897e7
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DungeonGeneration
   platform: 13
   scenePathNames:
-  - Assets/Scenes/Level V1.0.unity
-  playerPath: C:/Users/artem/OneDrive/Desktop/TestBuildV04.apk
+  - Assets/Scenes/Dungeon/BasementMain.unity
+  - Assets/Scenes/Dungeon/BasementStart.unity
+  - Assets/Scenes/Dungeon/BasementEmpty.unity
+  - Assets/Scenes/Dungeon/BasementBasic1.unity
+  - Assets/Scenes/Dungeon/BasementEnd.unity
+  playerPath: D:/Github/APK Builds/TestBuildV05.apk
