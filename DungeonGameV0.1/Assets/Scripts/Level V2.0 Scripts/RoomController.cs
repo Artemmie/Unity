@@ -22,6 +22,8 @@ public class RoomController : MonoBehaviour
     bool spawnedBossRoom = false;
     bool updatedRooms = false;
 
+    private RoomV2 currRoom;
+
     void Awake() 
     {
         instance = this;
@@ -143,5 +145,19 @@ public class RoomController : MonoBehaviour
     public void OnPlayerEnterRoom(RoomV2 room)
     {
         CameraController.instance.currRoom = room;
+        UpdatedRooms();
+        currRoom = room;
+    }
+
+    private void UpdatedRooms()
+    {
+        foreach (RoomV2 room in loadedRooms)
+        {
+            if(currRoom != room)
+            {
+    //            EnemyController[] enmies = room.GetComponentsInChildren<EnemyController>();
+    //            if (EventModifiers )
+            }
+        }
     }
 }

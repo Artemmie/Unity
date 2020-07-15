@@ -109,7 +109,6 @@ public class DungeonGeneration : MonoBehaviour
                     row += "R";
                 }
             }
-            Debug.Log (row);
         }
     }
     public void MoveToRoom(Room room)
