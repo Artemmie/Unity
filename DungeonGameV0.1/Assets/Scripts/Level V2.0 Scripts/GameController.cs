@@ -1,23 +1,24 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
     public static GameController instance;
-    private static int health = 10;
-    private static int maxHealth = 10;
+    private static float health = 6;
+    private static int maxHealth = 6;
     private static float moveSpeed = 5f;
     private static float fireRate = 0.5f;
+    private static float bulletSize = 0.5f;
 
-    public static int Health{ get => health; set => health = value; }
+    public static float Health{ get => health; set => health = value; }
     public static int MaxHealth{ get => maxHealth; set => maxHealth = value; }
     public static float MoveSpeed{ get => moveSpeed; set => moveSpeed = value; }
     public static float FireRate{ get => fireRate; set => fireRate = value; }
+    public static float BulletSize{ get => bulletSize; set => bulletSize = value; }
+
     
-    public Text healthText;
     private void Awake() 
     {
         if(instance == null)
@@ -25,25 +26,30 @@ public class GameController : MonoBehaviour
             instance = this;
         }
     }
-    private void Update() 
-    {
-        healthText.text = "Health: " + health;
-    }
     public static void DamagePlayer(int damage)
     {
         health -= damage;
-        if (health <= 0)
-        {
-            KillPlayer();
-        }
     }
 
-    private static void HealPlayer(int healAmount)
+    public static void HealPlayer(float healAmount)
     {
         health = Mathf.Min(maxHealth, health + healAmount);
     }
-    private static void KillPlayer()
+    public static void MoveSpeedChange(float speedAmount)
     {
-
+        moveSpeed += speedAmount; 
+    }
+    public static void FireRateChange(float fireRateAmount)
+    {
+        fireRate -= fireRateAmount;
+    }
+    public static void BulletSizeChange(float bulletSizeAmount)
+    {
+        bulletSize += bulletSizeAmount;
+    }
+    public static void Restart()
+    {
+        health = maxHealth;
+        SceneManager.LoadScene(0);
     }
 }

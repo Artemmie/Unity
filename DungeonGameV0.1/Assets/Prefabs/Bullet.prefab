@@ -73,7 +73,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 54
-  m_Sprite: {fileID: 21300000, guid: 08fc163ac27063e4cb38905e08f01182, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e7711c16542919042b689505e411302c, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -96,7 +96,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb3e7f3195cac96478cf36cc9a6024d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lifeTime: 30
+  lifeTime: 2
 --- !u!58 &-7059769225043479418
 CircleCollider2D:
   m_ObjectHideFlags: 0

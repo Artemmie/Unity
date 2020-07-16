@@ -14,9 +14,9 @@ public class Door : MonoBehaviour
     private float widthoffset = 1.75f;
     private void Start() 
     {
-      //  player = GameObject.FindGameObjectsWithTag("Player");
+        player = GameObject.FindGameObjectWithTag("Player");
     }
-    void OnTriggerEnter(Collider other) 
+    private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Player")
         {

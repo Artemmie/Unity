@@ -1,21 +1,23 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] private float speed;
     [SerializeField] private Joystick joystick;
-    [SerializeField] public GameObject bulletPrefab;
-    [SerializeField] public Transform firePoint;
-    [SerializeField] public float bulletSpeed;
+    [SerializeField] GameObject bulletPrefab;
+    [SerializeField] Transform firePoint;
+    [SerializeField] float bulletSpeed;
+     public float fireDelay;
+    public float lastFire;
+    public static int collectedAmount;
     private PlayerAnimation anim;
     private Rigidbody2D rb;
     private Vector2 movement;
-    public float lastFire;
-    [SerializeField] public float fireDelay;
-
+    private float health;
+    
     private void Start() 
     {
         anim = GetComponent<PlayerAnimation>();
@@ -26,6 +28,14 @@ public class PlayerController : MonoBehaviour
     {
         movement.x = joystick.Horizontal;
         movement.y = joystick.Vertical;
+        fireDelay = GameController.FireRate;
+        speed = GameController.MoveSpeed;
+        health = GameController.Health;
+        if (health <= 0) 
+        {
+            GameController.Restart();    
+        }
+        
         if (Input.GetButton("Fire1") && Time.time > lastFire + fireDelay)
         {
             Shoot();
@@ -38,7 +48,6 @@ public class PlayerController : MonoBehaviour
         anim.Move(movement.x,movement.y,movement.magnitude);
         rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
     }
-
     public void Shoot()
     {
         GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation) as GameObject;

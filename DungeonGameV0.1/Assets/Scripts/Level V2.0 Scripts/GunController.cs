@@ -13,11 +13,11 @@ public class GunController : MonoBehaviour
         Quaternion rotation = Quaternion.AngleAxis(angle - 270, Vector3.forward);
         transform.rotation = rotation;
         playerController = GameObject.FindObjectOfType<PlayerController>();
-  //      if (Time.time > playerController.lastFire + playerController.fireDelay)
-  //      {
-  //          playerController.Shoot();
-  //          playerController.lastFire = Time.time;
-  //      }
+        if (Time.time > playerController.lastFire + playerController.fireDelay)
+        {
+            playerController.Shoot();
+            playerController.lastFire = Time.time;
+         }
     }
     public void FindClosestEnemy()
     {

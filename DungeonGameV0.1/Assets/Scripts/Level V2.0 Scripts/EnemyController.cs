@@ -4,33 +4,46 @@ using UnityEngine;
 
 public enum EnemyState
 {
+    Idle,
     Wander,
     Follow,
     Die,
     Attack
 };
+public enum EnemyType
+{
+    Melee,
+    Range,
+};
 
 public class EnemyController : MonoBehaviour
 {
     GameObject player;
-    public EnemyState currState = EnemyState.Wander;
+    public EnemyState currState = EnemyState.Idle;
+    public EnemyType enemyType;
     public float range;
     public float speed;
     public float attackRange;
     public float coolDown;
+    public bool inRoom = false;
     private bool chooseDir = false;
     private bool dead = false;
     private bool coolDownAttack = false;
     private Vector3 randomDir;
     public int health = 100;
+    public GameObject bulletPrefab;
     private void Start() 
     {
         player = GameObject.FindGameObjectWithTag("Player");
     }
     private void Update() 
     {
+        if (health <= 0) currState = EnemyState.Die;
         switch(currState)
         {
+   //         case(EnemyState.Idle):
+     //           Idle();
+       //     break;
             case(EnemyState.Wander):
                 Wander();
             break;
@@ -44,23 +57,25 @@ public class EnemyController : MonoBehaviour
                Attack();
             break;
         }
-        if (health <= 0)
+        if (inRoom)
         {
-            currState = EnemyState.Die;
+            if (IsPlayerInRange(range) && currState != EnemyState.Die)
+            {
+                currState = EnemyState.Follow;
+            }
+            else if(!IsPlayerInRange(range) && currState != EnemyState.Die)
+            {
+                currState = EnemyState.Wander;
+            }
+            if(Vector3.Distance(transform.position, player.transform.position) <= attackRange)
+            {
+                currState = EnemyState.Attack;
+            }            
         }
-        else if(IsPlayerInRange(range) && currState != EnemyState.Die)
+        else
         {
-            currState = EnemyState.Follow;
+            currState = EnemyState.Idle;
         }
-        else if(!IsPlayerInRange(range) && currState != EnemyState.Die)
-        {
-            currState = EnemyState.Wander;
-        }
-        if(Vector3.Distance(transform.position, player.transform.position) <= attackRange)
-        {
-            currState = EnemyState.Attack;
-        }
-
     }
 
     private bool IsPlayerInRange(float range) 
@@ -100,14 +115,26 @@ public class EnemyController : MonoBehaviour
 
     public void Die()
     {
+        RoomController.instance.StartCoroutine(RoomController.instance.RoomCoroutine());
         Destroy(gameObject);
     }
     public void Attack()
     {
         if (!coolDownAttack)
         {
-            GameController.DamagePlayer(1);
-            StartCoroutine(CoolDown());
+            switch(enemyType)
+            {
+                case(EnemyType.Melee):
+                    GameController.DamagePlayer(1);
+                    StartCoroutine(CoolDown());
+                break;
+                case(EnemyType.Range):
+                    GameObject bullet = Instantiate(bulletPrefab, transform.position, Quaternion.identity) as GameObject;
+                    bullet.GetComponent<BulletController>().GetPlayer(player.transform);
+                    bullet.GetComponent<BulletController>().isEnemyBullet = true;
+                    StartCoroutine(CoolDown());
+                break;
+            }
         }
         
     }

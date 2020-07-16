@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1c55a06f9a8cc4abe93672f549756c, type: 3}
   m_Name: Random Item Spawner
   m_EditorClassIdentifier: 
-  itemToSpawn: {fileID: 5060595407657712593, guid: e5b0feec7bf894a488c3effeee2fff33,
+  itemToSpawn: {fileID: 3875450381473267859, guid: f1bfa542b40ba6a4d87c5045ad0efdee,
     type: 3}
-  minSpawn: 0
-  maxSpawn: 4
+  minSpawn: 1
+  maxSpawn: 2

@@ -3,14 +3,17 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - BulletController
     - CameraController
+    - CollectionController
     - Door
     - DungeonGenerationData
     - DungeonGenerator
     - EnemyController
     - FixedJoystick
     - FloorTiles
+    - GameController
     - GridController
     - GunController
+    - HealthUIController
     - ObjectRoomSpawner
     - PlayerAnimation
     - PlayerController
@@ -59,6 +62,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 58
       Script: {instanceID: 0}
+    - Class: 60
+      Script: {instanceID: 0}
     - Class: 61
       Script: {instanceID: 0}
     - Class: 68
@@ -66,19 +71,23 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11274}
+      Script: {instanceID: 11276}
     - Class: 114
-      Script: {instanceID: 12190}
+      Script: {instanceID: 11384}
     - Class: 114
-      Script: {instanceID: 12592}
+      Script: {instanceID: 12192}
     - Class: 114
-      Script: {instanceID: 13562}
+      Script: {instanceID: 12594}
     - Class: 114
-      Script: {instanceID: 13664}
+      Script: {instanceID: 13564}
     - Class: 114
-      Script: {instanceID: 13688}
+      Script: {instanceID: 13666}
     - Class: 114
-      Script: {instanceID: 13988}
+      Script: {instanceID: 13690}
+    - Class: 114
+      Script: {instanceID: 13990}
+    - Class: 114
+      Script: {instanceID: 175842}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -107,11 +116,11 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 12190}
+      Script: {instanceID: 12192}
     - Class: 114
-      Script: {instanceID: 13664}
+      Script: {instanceID: 13666}
     - Class: 114
-      Script: {instanceID: 13988}
+      Script: {instanceID: 13990}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -140,11 +149,11 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 12190}
+      Script: {instanceID: 12192}
     - Class: 114
-      Script: {instanceID: 13664}
+      Script: {instanceID: 13666}
     - Class: 114
-      Script: {instanceID: 13988}
+      Script: {instanceID: 13990}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -185,33 +194,37 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11150}
-    - Class: 114
       Script: {instanceID: 11152}
     - Class: 114
       Script: {instanceID: 11154}
     - Class: 114
-      Script: {instanceID: 11226}
+      Script: {instanceID: 11178}
     - Class: 114
-      Script: {instanceID: 11382}
+      Script: {instanceID: 11228}
     - Class: 114
-      Script: {instanceID: 11966}
+      Script: {instanceID: 11384}
     - Class: 114
-      Script: {instanceID: 12126}
+      Script: {instanceID: 11552}
     - Class: 114
-      Script: {instanceID: 12464}
+      Script: {instanceID: 11968}
     - Class: 114
-      Script: {instanceID: 12516}
+      Script: {instanceID: 12128}
     - Class: 114
-      Script: {instanceID: 12562}
+      Script: {instanceID: 12466}
     - Class: 114
-      Script: {instanceID: 13216}
+      Script: {instanceID: 12518}
     - Class: 114
-      Script: {instanceID: 13350}
+      Script: {instanceID: 12564}
     - Class: 114
-      Script: {instanceID: 13678}
+      Script: {instanceID: 13218}
     - Class: 114
-      Script: {instanceID: 14298}
+      Script: {instanceID: 13352}
+    - Class: 114
+      Script: {instanceID: 13680}
+    - Class: 114
+      Script: {instanceID: 14300}
+    - Class: 114
+      Script: {instanceID: 122654}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -246,11 +259,11 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 12190}
+      Script: {instanceID: 12192}
     - Class: 114
-      Script: {instanceID: 13664}
+      Script: {instanceID: 13666}
     - Class: 114
-      Script: {instanceID: 13988}
+      Script: {instanceID: 13990}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -262,6 +275,12 @@ ScriptsOnlyBuild:
     - Class: 213
       Script: {instanceID: 0}
   scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: aeb62f729c52c814dec86c47dcac1471
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
   - hash:
       serializedVersion: 2
       Hash: 89f9a1b4c64db9559e39f4a2e3bfaadd
@@ -276,16 +295,16 @@ ScriptsOnlyBuild:
     className: EventSystem
   - hash:
       serializedVersion: 2
-      Hash: 4bc4346a71a8df53a6b106f68ef3a190
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: CanvasScaler
-  - hash:
-      serializedVersion: 2
       Hash: ce669872a2be11bc686ea22961d8a3bb
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Joystick
+  - hash:
+      serializedVersion: 2
+      Hash: 4bc4346a71a8df53a6b106f68ef3a190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
   - hash:
       serializedVersion: 2
       Hash: c42672c997f8be6b1aa86a927ebea785
@@ -294,7 +313,7 @@ ScriptsOnlyBuild:
     className: TMP_SelectionCaret
   - hash:
       serializedVersion: 2
-      Hash: 1b91d3f9f3bde5e4381818de040dd068
+      Hash: 5f3da187d22aaf8f19261bd8f82e589b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerController
@@ -330,7 +349,7 @@ ScriptsOnlyBuild:
     className: PlayerQuitHandler
   - hash:
       serializedVersion: 2
-      Hash: bb8814741d7085ebb3d19a1a11769619
+      Hash: a4e889e4936661ead3ec154aadf1f83c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: BulletController
@@ -346,12 +365,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: ActivationTrack
-  - hash:
-      serializedVersion: 2
-      Hash: aeb62f729c52c814dec86c47dcac1471
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Text
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -388,6 +401,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameController
   - hash:
       serializedVersion: 2
       Hash: 896f4ddc5cbd3f6fa8a70c332cddb47a
@@ -726,7 +745,7 @@ ScriptsOnlyBuild:
     className: TimelineAsset
   - hash:
       serializedVersion: 2
-      Hash: 9f0d1b1aee946129c2f531023c62a5bb
+      Hash: f2d3473ffbac370e52af99ab1bbbf030
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: EnemyController
@@ -898,6 +917,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 05acd3d67dd71f459c782a32f55ab925
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HealthUIController
+  - hash:
+      serializedVersion: 2
+      Hash: 9815ee7997b944cf2f7a1edb5f42dd0c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CollectionController
   platform: 13
   scenePathNames:
   - Assets/Scenes/Dungeon/BasementMain.unity
@@ -905,4 +936,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Dungeon/BasementEmpty.unity
   - Assets/Scenes/Dungeon/BasementBasic1.unity
   - Assets/Scenes/Dungeon/BasementEnd.unity
-  playerPath: D:/Github/APK Builds/TestBuildV06.apk
+  playerPath: D:/Github/APK Builds/TestBuildV07.apk
