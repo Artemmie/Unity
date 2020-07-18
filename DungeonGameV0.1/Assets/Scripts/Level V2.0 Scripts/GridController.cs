@@ -21,7 +21,7 @@ public class GridController : MonoBehaviour
     {
         room = GetComponentInParent<RoomV2>();
         grid.columns = room.width - 2;
-        grid.rows = room.height - tmpOffset;
+        grid.rows = room.height - 4;
         GenerateGrid();
     }
 

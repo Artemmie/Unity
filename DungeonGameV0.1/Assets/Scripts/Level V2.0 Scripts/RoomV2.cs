@@ -64,20 +64,22 @@ public class RoomV2 : MonoBehaviour
             switch(door.doorType)
             {
                 case Door.DoorType.right:
-                    if(getRight() != null)
-                        door.gameObject.SetActive(false);
+                    if(getRight() == null)
+                        door.wall.SetActive(true);
+                        
                 break;
                 case Door.DoorType.left:
-                    if(getLeft() != null)
-                        door.gameObject.SetActive(false);
+                    if(getLeft() == null)
+                        door.wall.SetActive(true);
                 break;
                 case Door.DoorType.top:
-                    if(getTop() != null)
-                        door.gameObject.SetActive(false);
+                    if(getTop() == null)
+                        door.wall.SetActive(true);
+                        
                 break;
                 case Door.DoorType.bottom:
-                    if(getBottom() != null)
-                        door.gameObject.SetActive(false);
+                    if(getBottom() == null)
+                        door.wall.SetActive(true);
                 break;
             }
         }

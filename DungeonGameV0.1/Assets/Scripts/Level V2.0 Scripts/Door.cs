@@ -10,8 +10,9 @@ public class Door : MonoBehaviour
     }
     public DoorType doorType;
     public GameObject doorCollider;
+    public GameObject wall;
     private GameObject player;
-    private float widthoffset = 1.75f;
+    private float widthoffset = 2f;
     private void Start() 
     {
         player = GameObject.FindGameObjectWithTag("Player");

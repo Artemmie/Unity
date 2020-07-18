@@ -10,7 +10,6 @@ public class BulletController : MonoBehaviour
     private Vector2 lastPos;
     private Vector2 currPos;
     private Vector2 playerPos;
-    // Start is called before the first frame update
     void Start()
     {
         StartCoroutine(DeathDelay());
@@ -50,7 +49,7 @@ public class BulletController : MonoBehaviour
             col.gameObject.GetComponent<EnemyController>().ReduceHP();
             Destroy(gameObject);
         }
-        if (col.tag == "Player" && isEnemyBullet)
+        if (col.tag == "PlayerCollider" && isEnemyBullet)
         {
             GameController.DamagePlayer(2);
             Destroy(gameObject);
