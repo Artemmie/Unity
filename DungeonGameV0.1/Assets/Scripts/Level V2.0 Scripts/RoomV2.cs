@@ -9,7 +9,8 @@ public class RoomV2 : MonoBehaviour
     public int height;
     public int X;
     public int Y;
-    private bool updatedDoors = false;
+    private bool updatedDoorsBoss = false;
+    private bool updatedDoorsStatue = false;
     public RoomV2(int x, int y)
     {
         X = x;
@@ -24,7 +25,7 @@ public class RoomV2 : MonoBehaviour
     void Start()
     {
         if(RoomController.instance == null){
-            Debug.Log("You pressed play in the worng scene!");
+            Debug.Log("You pressed play in the wrong scene!");
             return;
         }
         Door[] ds = GetComponentsInChildren<Door>();
@@ -51,10 +52,15 @@ public class RoomV2 : MonoBehaviour
     }
     void Update() 
     {
-        if(name.Contains("End") && !updatedDoors)
+        if(name.Contains("End") && !updatedDoorsBoss)
         {
             RemoveUnconnectedDoors();
-            updatedDoors = true;
+            updatedDoorsBoss = true;
+        }
+        if (name.Contains("Statue") && !updatedDoorsStatue)
+        {
+            RemoveUnconnectedDoors();
+            updatedDoorsStatue = true;
         }
     }
     public void RemoveUnconnectedDoors()
@@ -66,7 +72,6 @@ public class RoomV2 : MonoBehaviour
                 case Door.DoorType.right:
                     if(getRight() == null)
                         door.wall.SetActive(true);
-                        
                 break;
                 case Door.DoorType.left:
                     if(getLeft() == null)
@@ -74,8 +79,7 @@ public class RoomV2 : MonoBehaviour
                 break;
                 case Door.DoorType.top:
                     if(getTop() == null)
-                        door.wall.SetActive(true);
-                        
+                        door.wall.SetActive(true);   
                 break;
                 case Door.DoorType.bottom:
                     if(getBottom() == null)
@@ -83,6 +87,32 @@ public class RoomV2 : MonoBehaviour
                 break;
             }
         }
+    }
+    public bool DoorsAmount()
+    {
+        int doorCount = 0;
+        if (getRight() == null)
+        {
+            doorCount++;
+        }
+        if (getLeft() == null)
+        {
+            doorCount++;
+        }
+        if (getTop() == null)
+        {
+            doorCount++;
+        }
+        if (getBottom() == null)
+        {
+            doorCount++;
+        }
+        if (doorCount == 3)
+        {
+            return true;
+        }
+        return false;
+            
     }
     public RoomV2 getRight()
     {   

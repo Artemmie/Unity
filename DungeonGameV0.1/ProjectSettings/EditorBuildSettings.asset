@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Dungeon/BasementBasic1.unity
     guid: f00970ca34f6fb74cad935320cf07eb5
   - enabled: 1
+    path: Assets/Scenes/Dungeon/BasementStatue.unity
+    guid: 00b7ced0a56f4cd4db0b7872efb49841
+  - enabled: 1
     path: Assets/Scenes/Dungeon/BasementEnd.unity
     guid: 1c1a9780a8c63dc4897655488026108b
   m_configObjects: {}

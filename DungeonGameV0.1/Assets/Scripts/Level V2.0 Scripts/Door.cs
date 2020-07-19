@@ -27,10 +27,10 @@ public class Door : MonoBehaviour
                     player.transform.position = new Vector2(transform.position.x, transform.position.y - widthoffset);
                 break;
                 case DoorType.left:
-                    player.transform.position = new Vector2(transform.position.x - widthoffset, transform.position.y);
+                    player.transform.position = new Vector2(transform.position.x - widthoffset + 1f, transform.position.y + 0.5f);
                 break;
                 case DoorType.right:
-                    player.transform.position = new Vector2(transform.position.x + widthoffset, transform.position.y);
+                    player.transform.position = new Vector2(transform.position.x + widthoffset - 1f, transform.position.y + 0.5f);
                 break;
                 case DoorType.top:
                     player.transform.position = new Vector2(transform.position.x, transform.position.y + widthoffset);

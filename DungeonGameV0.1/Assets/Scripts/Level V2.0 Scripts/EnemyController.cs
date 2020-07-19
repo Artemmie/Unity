@@ -41,9 +41,9 @@ public class EnemyController : MonoBehaviour
         if (health <= 0) currState = EnemyState.Die;
         switch(currState)
         {
-   //         case(EnemyState.Idle):
-     //           Idle();
-       //     break;
+           // case(EnemyState.Idle):
+            //    Idle();
+            //break;
             case(EnemyState.Wander):
                 Wander();
             break;
@@ -77,6 +77,7 @@ public class EnemyController : MonoBehaviour
             currState = EnemyState.Idle;
         }
     }
+
 
     private bool IsPlayerInRange(float range) 
     {
@@ -148,7 +149,7 @@ public class EnemyController : MonoBehaviour
     void OnTriggerStay2D(Collider2D other)
     {
         gunController = GameObject.FindObjectOfType<GunController>();
-        if (other.tag == "Gun")
+        if (other.tag == "Gun" && currState != EnemyState.Idle)
         {
             gunController.FindClosestEnemy();
         }

@@ -20,6 +20,7 @@ public class RoomController : MonoBehaviour
     public List<RoomV2> loadedRooms = new List<RoomV2>();
     bool isLoadingRoom = false;
     bool spawnedBossRoom = false;
+    bool spawnedStatueRoom = false;
     bool updatedRooms = false;
 
     private RoomV2 currRoom;
@@ -45,7 +46,11 @@ public class RoomController : MonoBehaviour
             {
                 StartCoroutine(SpawnedBossRoom());
             }
-            else if (spawnedBossRoom && !updatedRooms)
+            if(!spawnedStatueRoom)
+            {
+                StartCoroutine(SpawnedStatueRoom());
+            }
+            else if (spawnedBossRoom && spawnedStatueRoom && !updatedRooms)
             {
                 foreach(RoomV2 room in loadedRooms)
                 {
@@ -63,7 +68,7 @@ public class RoomController : MonoBehaviour
     IEnumerator SpawnedBossRoom()
     {
         spawnedBossRoom = true;
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.4f);
         if (LoadRoomQueue.Count == 0)
         {
             RoomV2 bossRoom = loadedRooms[loadedRooms.Count - 1];
@@ -72,6 +77,33 @@ public class RoomController : MonoBehaviour
             var roomToRemove = loadedRooms.Single(r => r.X == tempRoom.X && r.Y == tempRoom.Y);
             loadedRooms.Remove(roomToRemove);
             loadRoom("End",tempRoom.X,tempRoom.Y);
+        }
+    }
+    IEnumerator SpawnedStatueRoom()
+    {
+        spawnedStatueRoom = true;
+        yield return new WaitForSeconds(0.8f);
+        RoomV2 statueRoom = currRoom;
+        if (LoadRoomQueue.Count == 0)
+        {
+            foreach (RoomV2 room in loadedRooms)
+            {
+                if (room.DoorsAmount() && !room.name.Contains("End"))
+                {
+                    statueRoom = room;
+                    break;
+                }
+            }
+            Debug.Log("Statue Room: " + statueRoom + "curr: " + currRoom);
+            if (statueRoom == currRoom) 
+            {
+                yield break;
+            }
+            RoomV2 tempRoom = new RoomV2(statueRoom.X, statueRoom.Y);
+            Destroy(statueRoom.gameObject);
+            var roomToRemove = loadedRooms.Single(r => r.X == tempRoom.X && r.Y == tempRoom.Y);
+            loadedRooms.Remove(roomToRemove);
+            loadRoom("Statue", tempRoom.X, tempRoom.Y);
         }
     }
 
@@ -138,8 +170,9 @@ public class RoomController : MonoBehaviour
     {
         string[] possibleRooms = new string[]
         {
-            "Empty",
-            "Basic1"
+      //      "Empty",
+            "Basic1",
+       //     "Statue"
         };
         return possibleRooms[UnityEngine.Random.Range(0, possibleRooms.Length)];
     }

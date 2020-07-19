@@ -15,13 +15,14 @@ public class GridController : MonoBehaviour
     }
     public Grid grid;
     public GameObject grindTile;
-    public int tmpOffset = 2;
+    public int columOffset;
+    public int rowOffset;
     public List<Vector2> availaiblePoints = new List <Vector2>();
     void Awake()
     {
         room = GetComponentInParent<RoomV2>();
-        grid.columns = room.width - 2;
-        grid.rows = room.height - 4;
+        grid.columns = room.width - columOffset;
+        grid.rows = room.height - rowOffset;
         GenerateGrid();
     }
 

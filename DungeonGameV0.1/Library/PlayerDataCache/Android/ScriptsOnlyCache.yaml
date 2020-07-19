@@ -14,6 +14,7 @@ ScriptsOnlyBuild:
     - GridController
     - GunController
     - HealthUIController
+    - ItemsSpawner
     - ObjectRoomSpawner
     - PlayerAnimation
     - PlayerController
@@ -80,19 +81,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11384}
     - Class: 114
-      Script: {instanceID: 12192}
+      Script: {instanceID: 12188}
     - Class: 114
-      Script: {instanceID: 12594}
+      Script: {instanceID: 12592}
     - Class: 114
-      Script: {instanceID: 13564}
+      Script: {instanceID: 13562}
     - Class: 114
-      Script: {instanceID: 13666}
+      Script: {instanceID: 13664}
     - Class: 114
-      Script: {instanceID: 13690}
+      Script: {instanceID: 13688}
     - Class: 114
-      Script: {instanceID: 13992}
+      Script: {instanceID: 13988}
     - Class: 114
-      Script: {instanceID: 14240}
+      Script: {instanceID: 14236}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -123,11 +124,11 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 12192}
+      Script: {instanceID: 12188}
     - Class: 114
-      Script: {instanceID: 13666}
+      Script: {instanceID: 13664}
     - Class: 114
-      Script: {instanceID: 13992}
+      Script: {instanceID: 13988}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -158,11 +159,11 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 12192}
+      Script: {instanceID: 12188}
     - Class: 114
-      Script: {instanceID: 13666}
+      Script: {instanceID: 13664}
     - Class: 114
-      Script: {instanceID: 13992}
+      Script: {instanceID: 13988}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -213,27 +214,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11384}
     - Class: 114
-      Script: {instanceID: 11552}
+      Script: {instanceID: 11550}
     - Class: 114
-      Script: {instanceID: 11968}
+      Script: {instanceID: 11964}
     - Class: 114
-      Script: {instanceID: 12128}
+      Script: {instanceID: 12124}
     - Class: 114
-      Script: {instanceID: 12466}
+      Script: {instanceID: 12462}
     - Class: 114
-      Script: {instanceID: 12518}
+      Script: {instanceID: 12516}
     - Class: 114
-      Script: {instanceID: 12564}
+      Script: {instanceID: 12562}
     - Class: 114
-      Script: {instanceID: 13218}
+      Script: {instanceID: 13216}
     - Class: 114
-      Script: {instanceID: 13352}
+      Script: {instanceID: 13350}
     - Class: 114
-      Script: {instanceID: 13680}
+      Script: {instanceID: 13678}
     - Class: 114
-      Script: {instanceID: 13940}
+      Script: {instanceID: 13936}
     - Class: 114
-      Script: {instanceID: 14304}
+      Script: {instanceID: 14300}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -270,11 +271,56 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 12192}
+      Script: {instanceID: 12188}
     - Class: 114
-      Script: {instanceID: 13666}
+      Script: {instanceID: 13664}
     - Class: 114
-      Script: {instanceID: 13992}
+      Script: {instanceID: 13988}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    Assets/Scenes/Dungeon/BasementStatue.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 60
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 68
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11276}
+    - Class: 114
+      Script: {instanceID: 12188}
+    - Class: 114
+      Script: {instanceID: 12494}
+    - Class: 114
+      Script: {instanceID: 12592}
+    - Class: 114
+      Script: {instanceID: 13664}
+    - Class: 114
+      Script: {instanceID: 13688}
+    - Class: 114
+      Script: {instanceID: 13988}
+    - Class: 114
+      Script: {instanceID: 14236}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -388,12 +434,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Scrollbar
-  - hash:
-      serializedVersion: 2
-      Hash: 63cacdc268f314519fc44e2e6fc3b9c7
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: EnterDoor
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -594,6 +634,12 @@ ScriptsOnlyBuild:
     className: FloatingJoystick
   - hash:
       serializedVersion: 2
+      Hash: f92b3281f03c4283afedcb1dbea0e7f6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ItemsSpawner
+  - hash:
+      serializedVersion: 2
       Hash: b3ab2106268377ffe25dd18ac23dca28
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -618,7 +664,7 @@ ScriptsOnlyBuild:
     className: GunController
   - hash:
       serializedVersion: 2
-      Hash: af0ae9865b90fabd9e82e906229d2d27
+      Hash: 531164847ccb169ebf5e434026b695c5
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GridController
@@ -804,12 +850,6 @@ ScriptsOnlyBuild:
     className: BeforeAfterTestCommandState
   - hash:
       serializedVersion: 2
-      Hash: 9cd37693af109810ba5502a419d897e7
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DungeonGeneration
-  - hash:
-      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -946,5 +986,6 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Dungeon/BasementStart.unity
   - Assets/Scenes/Dungeon/BasementEmpty.unity
   - Assets/Scenes/Dungeon/BasementBasic1.unity
+  - Assets/Scenes/Dungeon/BasementStatue.unity
   - Assets/Scenes/Dungeon/BasementEnd.unity
-  playerPath: D:/Github/APK Builds/TestBuildV008.apk
+  playerPath: D:/Github/APK Builds/TestBuildV009.apk
