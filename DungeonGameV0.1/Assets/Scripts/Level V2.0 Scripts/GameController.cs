@@ -51,5 +51,6 @@ public class GameController : MonoBehaviour
     {
         health = maxHealth;
         SceneManager.LoadScene(0);
+        DungeonCrawlController.positionsVisited.Clear();
     }
 }

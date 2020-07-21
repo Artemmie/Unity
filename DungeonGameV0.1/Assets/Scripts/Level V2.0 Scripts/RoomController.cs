@@ -94,7 +94,6 @@ public class RoomController : MonoBehaviour
                     break;
                 }
             }
-            Debug.Log("Statue Room: " + statueRoom + "curr: " + currRoom);
             if (statueRoom == currRoom) 
             {
                 yield break;
