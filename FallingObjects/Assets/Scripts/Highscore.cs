@@ -5,7 +5,6 @@ public class Highscore : MonoBehaviour
 {  
     private int highScore;
     private bool high = false;
-    // Start is called before the first frame update
     void Start()
     {
         if (Score.score > PlayerPrefs.GetInt("HighScore", highScore))

@@ -88,7 +88,7 @@ public class RoomV2 : MonoBehaviour
             }
         }
     }
-    public bool DoorsAmount()
+    public bool EndRoom()
     {
         int doorCount = 0;
         if (getRight() == null)

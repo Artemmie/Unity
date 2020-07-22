@@ -6,13 +6,6 @@ public class PipeSpawner : MonoBehaviour
     private float timer = 0;
     [SerializeField] GameObject[] objects;
     public float height;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
         if(timer >maxTime)
