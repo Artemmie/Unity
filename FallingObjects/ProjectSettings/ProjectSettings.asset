@@ -168,7 +168,7 @@ PlayerSettings:
     Android: com.Sunset.AvoidThePlanes
   buildNumber: {}
   AndroidBundleVersionCode: 6
-  AndroidMinSdkVersion: 28
+  AndroidMinSdkVersion: 19
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 1
   aotOptions: 

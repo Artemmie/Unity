@@ -4,9 +4,11 @@ ScriptsOnlyBuild:
     - AddRocket
     - AddScore
     - Ads
+    - BlinkingChat
     - Fly
     - GameOverScore
     - Highscore
+    - JustRotate
     - ManagerGame
     - Move
     - PipeSpawner
@@ -17,6 +19,7 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrush
+    - UnityEditor.Tilemaps.GridBrushEditor
     - UnityEditor.Tilemaps.GridPaintPaletteClipboard
     - UnityEditor.Tilemaps.GridPaintPaletteWindow
     - UnityEditor.Tilemaps.GridPaintingState
@@ -49,7 +52,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Image
     - UnityEngine.UI.Text
   sceneClasses:
-    Assets/Scenes/SampleScene.unity:
+    Assets/Scenes/Start.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -103,21 +106,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12728}
     - Class: 114
-      Script: {instanceID: 12836}
+      Script: {instanceID: 12742}
     - Class: 114
-      Script: {instanceID: 13042}
+      Script: {instanceID: 12838}
     - Class: 114
-      Script: {instanceID: 13200}
+      Script: {instanceID: 13044}
     - Class: 114
-      Script: {instanceID: 13840}
+      Script: {instanceID: 13202}
     - Class: 114
-      Script: {instanceID: 13912}
+      Script: {instanceID: 13842}
     - Class: 114
-      Script: {instanceID: 14102}
+      Script: {instanceID: 13914}
     - Class: 114
-      Script: {instanceID: 14138}
+      Script: {instanceID: 14104}
     - Class: 114
-      Script: {instanceID: 14498}
+      Script: {instanceID: 14140}
+    - Class: 114
+      Script: {instanceID: 14500}
+    - Class: 114
+      Script: {instanceID: 29840}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -193,7 +200,7 @@ ScriptsOnlyBuild:
     className: GroupTrack
   - hash:
       serializedVersion: 2
-      Hash: e91671233448b426b52942d3bb3cbeeb
+      Hash: c08150fc1d8801d1b78b8cf313c6a61f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Fly
@@ -409,7 +416,7 @@ ScriptsOnlyBuild:
     className: Selectable
   - hash:
       serializedVersion: 2
-      Hash: afc5b93a7b192de2dcb3832fe35a5c7e
+      Hash: 010992f40ad9383f1abbcfe29e69c8b0
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ShootRocket
@@ -437,6 +444,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: AddRocket
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BlinkingChat
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -601,7 +614,7 @@ ScriptsOnlyBuild:
     className: MarkerTrack
   - hash:
       serializedVersion: 2
-      Hash: 5b4c1eb7e8b8bd5a1184c9641eba523d
+      Hash: 0897304366ec8f44a106e4ec00bece50
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ManagerGame
@@ -721,53 +734,11 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: eec80eb970419ac18e9be432124dc010
+      Hash: d62301e643e4d37f0cd0c820a8cede5f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: CanvasGroupAnimation
-  - hash:
-      serializedVersion: 2
-      Hash: 5e44cf4f74653679191394c027c39c67
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MenuManager
-  - hash:
-      serializedVersion: 2
-      Hash: a52b6a5d4e71c3b19efb241309b5b1d4
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: HideButton
-  - hash:
-      serializedVersion: 2
-      Hash: 0a5c4d98aecdc70993767eba7c1dca44
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: HoverAnimation
-  - hash:
-      serializedVersion: 2
-      Hash: 659d143b090ec6d546233b1dd9f9c20b
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ButtonSound
-  - hash:
-      serializedVersion: 2
-      Hash: 45c793de3806300c562dac60e6149d37
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Loading
-  - hash:
-      serializedVersion: 2
-      Hash: efe2d305af95d6abd0d4e209b377d1e0
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MySounder
-  - hash:
-      serializedVersion: 2
-      Hash: 14b0f5b41eac72fe90d551d5d28df1e0
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: RotationAnimation
+    className: JustRotate
   platform: 13
   scenePathNames:
-  - Assets/Scenes/SampleScene.unity
+  - Assets/Scenes/Start.unity
   playerPath: D:/Github/APK Builds/Avoid The Planes.apk

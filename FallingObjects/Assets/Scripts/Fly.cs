@@ -5,8 +5,8 @@ using UnityEngine;
 public class Fly : MonoBehaviour
 {
     public ManagerGame gameManager;
-    public GameObject rocket;
     public Transform shootPoint;
+    public GameObject rocketPrefab;
     public float delayTime = 1;
     public float velocity = 1;
     private float rotation = 1;
@@ -20,6 +20,7 @@ public class Fly : MonoBehaviour
     void Update()
     {
         if(Input.touchCount > 0)
+     //   if (Input.GetMouseButtonDown(0))
         {
             rb.velocity = Vector2.up * velocity;
             if (transform.rotation.z <= 20)
@@ -38,8 +39,8 @@ public class Fly : MonoBehaviour
         if (Rocket.rocket > 0 && delay > delayTime)
         {
             Rocket.rocket--;
-            rocket = Instantiate(rocket,shootPoint.transform.position, transform.rotation) as GameObject;
-            Destroy(rocket, 10);
+            GameObject rocket = Instantiate(rocketPrefab, shootPoint.transform.position, transform.rotation) as GameObject;
+            Destroy(rocket, 7);
             delay = 0;
         }
     }

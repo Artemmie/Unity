@@ -12,7 +12,7 @@ public class PipeSpawner : MonoBehaviour
         {
             GameObject newpipe = Instantiate(objects[Random.Range(0, objects.Length)]) as GameObject;
             newpipe.transform.position = transform.position + new Vector3(0, Random.Range(-height, height), 0);
-            Destroy(newpipe, 15);
+            Destroy(newpipe, 7);
             timer = 0;
         }
         timer += Time.deltaTime;
