@@ -15,7 +15,7 @@ public class PipeSpawner : MonoBehaviour
             Destroy(newpipe, 15);
             timer = 0;
         }
-        timer+= Time.deltaTime;
+        timer += Time.deltaTime;
         
     }
 }

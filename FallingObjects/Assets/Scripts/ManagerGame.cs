@@ -1,12 +1,11 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class ManagerGame : MonoBehaviour
 {
     public GameObject gameOverCanvas;
     public GameObject touchToPlayCanvas;
+    public GameObject rocketCanvas;
 
     private void Start()
     {
@@ -26,9 +25,10 @@ public class ManagerGame : MonoBehaviour
     {
         Time.timeScale = 1;
         touchToPlayCanvas.SetActive(false);
+        rocketCanvas.SetActive(true);
     }
     public void Rate()
     {
-        Application.OpenURL("market://details?id=YOUR_ID");
+        Application.OpenURL("https://play.google.com/store/apps/details?id=com.Sunset.AvoidThePlanes");
     }
 }

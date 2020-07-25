@@ -1,0 +1,11 @@
+--------------------
+Fonts:
+
+Segoe UI Emoji
+DAGGERSQUARE
+=====================
+color:
+
+font-color : #051824
+Heading-color : #fdebab
+--------------------

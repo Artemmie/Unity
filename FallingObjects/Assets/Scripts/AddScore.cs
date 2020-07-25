@@ -6,6 +6,9 @@ public class AddScore : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Score.score++;
+        if (other.gameObject.tag == "Player")
+        {
+            Score.score++;
+        }
     }
 }

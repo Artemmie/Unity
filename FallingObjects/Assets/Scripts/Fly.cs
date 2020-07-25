@@ -5,9 +5,14 @@ using UnityEngine;
 public class Fly : MonoBehaviour
 {
     public ManagerGame gameManager;
+    public GameObject rocket;
+    public Transform shootPoint;
+    public float delayTime = 1;
     public float velocity = 1;
     private float rotation = 1;
     private Rigidbody2D rb;
+    private float delay = 0;
+    public float rocketSpeed = 1;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -20,16 +25,29 @@ public class Fly : MonoBehaviour
             if (transform.rotation.z <= 20)
             {
                 transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(0,0, 20), Time.deltaTime * rotation);
-            }
-            
+            } 
         }
         else if (transform.rotation.z >= -20)
         {
-            transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(0,0, -20), Time.deltaTime * rotation);
+            transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(0,0, -20), Time.deltaTime * (rotation / 2));
+        }
+        delay += Time.deltaTime;
+    }
+    public void Shoot()
+    {
+        if (Rocket.rocket > 0 && delay > delayTime)
+        {
+            Rocket.rocket--;
+            rocket = Instantiate(rocket,shootPoint.transform.position, transform.rotation) as GameObject;
+            Destroy(rocket, 10);
+            delay = 0;
         }
     }
     private void OnCollisionEnter2D(Collision2D other) 
     {
-        gameManager.GameOver();
+        if (other.gameObject.tag != "Rocket")
+        {
+            gameManager.GameOver();
+        }
     }
 }
