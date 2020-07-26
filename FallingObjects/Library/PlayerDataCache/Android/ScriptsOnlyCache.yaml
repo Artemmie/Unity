@@ -19,7 +19,6 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrush
-    - UnityEditor.Tilemaps.GridBrushEditor
     - UnityEditor.Tilemaps.GridPaintPaletteClipboard
     - UnityEditor.Tilemaps.GridPaintPaletteWindow
     - UnityEditor.Tilemaps.GridPaintingState
@@ -33,8 +32,11 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationBlendTree.Node
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -77,6 +79,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
     - Class: 95
@@ -84,47 +90,47 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11204}
+      Script: {instanceID: 11184}
     - Class: 114
-      Script: {instanceID: 11304}
+      Script: {instanceID: 11186}
     - Class: 114
-      Script: {instanceID: 11474}
+      Script: {instanceID: 11188}
     - Class: 114
-      Script: {instanceID: 11516}
+      Script: {instanceID: 11294}
     - Class: 114
-      Script: {instanceID: 11574}
+      Script: {instanceID: 11310}
     - Class: 114
-      Script: {instanceID: 11666}
+      Script: {instanceID: 11480}
     - Class: 114
-      Script: {instanceID: 11692}
+      Script: {instanceID: 11578}
     - Class: 114
-      Script: {instanceID: 12274}
+      Script: {instanceID: 11670}
     - Class: 114
-      Script: {instanceID: 12362}
+      Script: {instanceID: 11696}
     - Class: 114
-      Script: {instanceID: 12418}
+      Script: {instanceID: 12278}
     - Class: 114
-      Script: {instanceID: 12728}
+      Script: {instanceID: 12366}
     - Class: 114
-      Script: {instanceID: 12742}
+      Script: {instanceID: 12422}
     - Class: 114
-      Script: {instanceID: 12838}
+      Script: {instanceID: 12732}
     - Class: 114
-      Script: {instanceID: 13044}
+      Script: {instanceID: 12746}
     - Class: 114
-      Script: {instanceID: 13202}
+      Script: {instanceID: 12842}
     - Class: 114
-      Script: {instanceID: 13842}
+      Script: {instanceID: 13204}
     - Class: 114
-      Script: {instanceID: 13914}
+      Script: {instanceID: 13844}
     - Class: 114
-      Script: {instanceID: 14104}
+      Script: {instanceID: 13916}
     - Class: 114
-      Script: {instanceID: 14140}
+      Script: {instanceID: 14106}
     - Class: 114
-      Script: {instanceID: 14500}
+      Script: {instanceID: 14142}
     - Class: 114
-      Script: {instanceID: 29840}
+      Script: {instanceID: 14502}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -144,6 +150,18 @@ ScriptsOnlyBuild:
     - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 5f1752ed2092162f016c19510c28a8b9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: aeb62f729c52c814dec86c47dcac1471
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
   - hash:
       serializedVersion: 2
       Hash: 4bc4346a71a8df53a6b106f68ef3a190
@@ -174,6 +192,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.Advertisements.dll
     namespaceName: UnityEngine.Advertisements.Platform.Editor
     className: BannerPlaceholder
+  - hash:
+      serializedVersion: 2
+      Hash: d62301e643e4d37f0cd0c820a8cede5f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: JustRotate
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -210,12 +234,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: ActivationTrack
-  - hash:
-      serializedVersion: 2
-      Hash: aeb62f729c52c814dec86c47dcac1471
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Text
   - hash:
       serializedVersion: 2
       Hash: 499fd23433e68e265d153aa6b95d0047
@@ -488,12 +506,6 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
-      Hash: 5f1752ed2092162f016c19510c28a8b9
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Button
-  - hash:
-      serializedVersion: 2
       Hash: f84d945e5e1ca985698660fc26e9657f
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -614,7 +626,7 @@ ScriptsOnlyBuild:
     className: MarkerTrack
   - hash:
       serializedVersion: 2
-      Hash: 0897304366ec8f44a106e4ec00bece50
+      Hash: 0d10adc509e4c4114757d50ed60386f6
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ManagerGame
@@ -732,12 +744,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: d62301e643e4d37f0cd0c820a8cede5f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: JustRotate
   platform: 13
   scenePathNames:
   - Assets/Scenes/Start.unity

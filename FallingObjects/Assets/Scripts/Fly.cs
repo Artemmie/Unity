@@ -20,7 +20,6 @@ public class Fly : MonoBehaviour
     void Update()
     {
         if(Input.touchCount > 0)
-     //   if (Input.GetMouseButtonDown(0))
         {
             rb.velocity = Vector2.up * velocity;
             if (transform.rotation.z <= 20)
