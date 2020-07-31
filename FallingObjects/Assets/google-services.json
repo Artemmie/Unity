@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "675794751909",
+    "firebase_url": "https://avoid-the-planes-85104021.firebaseio.com",
+    "project_id": "avoid-the-planes-85104021",
+    "storage_bucket": "avoid-the-planes-85104021.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675794751909:android:2c9f83b835bd3a7b1c584c",
+        "android_client_info": {
+          "package_name": "com.Sunset.AvoidThePlanes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "675794751909-4lgqangvms55g761mie0k6lfftko8cc8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC28ANEDTVo_MV9u3iFEpdFq7wwx8ThHbc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "675794751909-4lgqangvms55g761mie0k6lfftko8cc8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

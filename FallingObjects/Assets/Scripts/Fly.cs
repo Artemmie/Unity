@@ -19,6 +19,7 @@ public class Fly : MonoBehaviour
     }
     void Update()
     {
+       // if(Input.GetMouseButtonDown(0))
         if(Input.touchCount > 0)
         {
             rb.velocity = Vector2.up * velocity;
@@ -47,6 +48,11 @@ public class Fly : MonoBehaviour
     {
         if (other.gameObject.tag != "Rocket")
         {
+            GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+            foreach(GameObject enemy in enemies)
+            {
+                GameObject.Destroy(enemy);
+            }
             gameManager.GameOver();
         }
     }

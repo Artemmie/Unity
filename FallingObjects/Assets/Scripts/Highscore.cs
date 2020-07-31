@@ -5,7 +5,7 @@ public class Highscore : MonoBehaviour
 {  
     private int highScore;
     private bool high = false;
-    void Start()
+    private void OnEnable()
     {
         if (Score.score > PlayerPrefs.GetInt("HighScore", highScore))
         {

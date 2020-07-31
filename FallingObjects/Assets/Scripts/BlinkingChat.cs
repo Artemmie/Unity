@@ -5,7 +5,6 @@ using UnityEngine.UI;
 public class BlinkingChat : MonoBehaviour
 {
     Text text;
-    // Start is called before the first frame update
     void Start()
     {
         text = GetComponent<Text>();
@@ -22,12 +21,8 @@ public class BlinkingChat : MonoBehaviour
         }
     
     }
-
-    void StartBlinking(){
-        StartCoroutine("Blink");
-    }
-    void StopBlinking()
+    void StartBlinking()
     {
-        StopCoroutine("Blink");
+        StartCoroutine("Blink");
     }
 }
