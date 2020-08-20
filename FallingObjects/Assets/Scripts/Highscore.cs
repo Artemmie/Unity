@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using GooglePlayGames;
+using UnityEngine.SocialPlatforms;
 
 public class Highscore : MonoBehaviour
 {  
@@ -9,8 +11,14 @@ public class Highscore : MonoBehaviour
     {
         if (Score.score > PlayerPrefs.GetInt("HighScore", highScore))
         {
-            PlayerPrefs.SetInt("HighScore", Score.score);
             high = true;
+            PlayerPrefs.SetInt("HighScore", Score.score);
+            Social.ReportScore(Score.score, GPGSIds.leaderboard_high_score, (bool success) =>
+            {
+                if (success)
+                {
+                }
+            });
         }
         highScore = PlayerPrefs.GetInt("HighScore", highScore);
         if (high)

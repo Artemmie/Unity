@@ -121,7 +121,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: v1.35
+  bundleVersion: v1.41
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -167,7 +167,7 @@ PlayerSettings:
   applicationIdentifier:
     Android: com.Sunset.AvoidThePlanes
   buildNumber: {}
-  AndroidBundleVersionCode: 15
+  AndroidBundleVersionCode: 21
   AndroidMinSdkVersion: 19
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 1

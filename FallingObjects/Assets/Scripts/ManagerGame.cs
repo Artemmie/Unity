@@ -3,7 +3,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Audio;
 using UnityEngine.Advertisements;
-using Firebase.Analytics;
+using GooglePlayGames;
+using UnityEngine.SocialPlatforms;
+using UnityEngine.Analytics;
 
 public class ManagerGame : MonoBehaviour, IUnityAdsListener
 {
@@ -33,6 +35,11 @@ public class ManagerGame : MonoBehaviour, IUnityAdsListener
         Advertisement.Initialize(GooglePlay_ID, testMode);
         StartCoroutine(OnStartAnimation());
     }
+    public void QuitIt()
+    {
+        Debug.Log("I get here");
+        Application.Quit();
+    }
     public void GameOver()
     {
         if (continueCount < 2)
@@ -53,6 +60,10 @@ public class ManagerGame : MonoBehaviour, IUnityAdsListener
         SceneManager.LoadScene(0);
         continueCount = 0;
         Time.timeScale = 1;
+    }
+    public void OpenLeaderboard()
+    {
+        PlayGamesPlatform.Instance.ShowLeaderboardUI(GPGSIds.leaderboard_high_score);
     }
     public void StartGame()
     {
@@ -117,9 +128,9 @@ public class ManagerGame : MonoBehaviour, IUnityAdsListener
     }
     public void OnUnityAdsDidFinish (string placementId, ShowResult showResult) 
     {
+        AnalyticsEvent.AdComplete(true);
         if (showResult == ShowResult.Finished) 
-        {   
-            Firebase.Analytics.FirebaseAnalytics.LogEvent("finished_reward_ad");
+        { 
             if (replayAd)
             {
                 Replay();
@@ -131,12 +142,10 @@ public class ManagerGame : MonoBehaviour, IUnityAdsListener
         } 
         else if (showResult == ShowResult.Skipped) 
         {
-            Firebase.Analytics.FirebaseAnalytics.LogEvent("skipped_an_ad");
             Replay();
         } 
         else if (showResult == ShowResult.Failed) 
         {
-            Firebase.Analytics.FirebaseAnalytics.LogEvent("ad_failed");
             Replay();
         }
     }

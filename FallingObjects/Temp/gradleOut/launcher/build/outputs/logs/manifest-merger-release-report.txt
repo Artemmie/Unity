@@ -1,0 +1,390 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Github\Unity\FallingObjects\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:1-6:12
+INJECTED from D:\Github\Unity\FallingObjects\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:1-6:12
+INJECTED from D:\Github\Unity\FallingObjects\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:1-6:12
+INJECTED from D:\Github\Unity\FallingObjects\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:1-6:12
+MERGED from [:unityLibrary] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:3:1-67:12
+MERGED from [:androidx.arch.core.core-runtime-2.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\7a8f3510ab3b8d4341c80599017560c4\AndroidManifest.xml:17:1-22:12
+MERGED from [:androidx.asynclayoutinflater.asynclayoutinflater-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\97a9166a70e782c6602600aad3365713\AndroidManifest.xml:17:1-22:12
+MERGED from [:androidx.coordinatorlayout.coordinatorlayout-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\c600ca4a6e973b7f119ec9f70a2e2d57\AndroidManifest.xml:17:1-22:12
+MERGED from [:androidx.core.core-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\c3b6755c78e0b3773cd70de08e35bd6e\AndroidManifest.xml:17:1-24:12
+MERGED from [:androidx.cursoradapter.cursoradapter-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\c9dec0f8cfb7dda88d3fe2a9c8b68dbf\AndroidManifest.xml:17:1-22:12
+MERGED from [:androidx.customview.customview-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\b2bac5f3e3e3ab9e8e9053a5ee91dbc2\AndroidManifest.xml:17:1-22:12
+MERGED from [:androidx.documentfile.documentfile-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\f8acfb4fba86a5fd1a3eb0623cc10cea\AndroidManifest.xml:17:1-22:12
+MERGED from [:androidx.drawerlayout.drawerlayout-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\3c6ffcc5067299aee93d6446c1056979\AndroidManifest.xml:17:1-22:12
+MERGED from [:androidx.fragment.fragment-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\1c6594d426ca98702d1731db8df146f8\AndroidManifest.xml:17:1-22:12
+MERGED from [:androidx.interpolator.interpolator-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\fc0e4c7bbc9a27bf2ac523f85b28b809\AndroidManifest.xml:17:1-22:12
+MERGED from [:androidx.legacy.legacy-support-core-ui-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\eb6df244166702619db71bff9183289f\AndroidManifest.xml:17:1-22:12
+MERGED from [:androidx.legacy.legacy-support-core-utils-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\0f081b44b159aab34c71fd4265a7f22c\AndroidManifest.xml:17:1-22:12
+MERGED from [:androidx.lifecycle.lifecycle-livedata-2.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\0659a1b22c6401e3e9221bcedc3fd9bb\AndroidManifest.xml:17:1-22:12
+MERGED from [:androidx.lifecycle.lifecycle-livedata-core-2.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\abe21128156eb8a2db10850a16207cc0\AndroidManifest.xml:17:1-22:12
+MERGED from [:androidx.lifecycle.lifecycle-runtime-2.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\d057cc847de617f6d7da50da1a1100fa\AndroidManifest.xml:17:1-22:12
+MERGED from [:androidx.lifecycle.lifecycle-viewmodel-2.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\1fa701e5eec91d131c7155ffdd5eff1f\AndroidManifest.xml:17:1-22:12
+MERGED from [:androidx.loader.loader-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\c5a1b965b6a6f4b0deedd3f5562998c0\AndroidManifest.xml:17:1-22:12
+MERGED from [:androidx.localbroadcastmanager.localbroadcastmanager-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\6e1391671dd7dab13f1c8c29ac6fe4c9\AndroidManifest.xml:17:1-22:12
+MERGED from [:androidx.print.print-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\0a52cc877ec701884fffeb54cd61e432\AndroidManifest.xml:17:1-22:12
+MERGED from [:androidx.slidingpanelayout.slidingpanelayout-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\5d548e594f68498a4fe06679afea48df\AndroidManifest.xml:17:1-22:12
+MERGED from [:androidx.swiperefreshlayout.swiperefreshlayout-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\932f70d7a9519ad014a06f6dba6c6279\AndroidManifest.xml:17:1-22:12
+MERGED from [:androidx.versionedparcelable.versionedparcelable-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\eb775cea9c109fe86fc3a5d9274e82cd\AndroidManifest.xml:17:1-25:12
+MERGED from [:androidx.viewpager.viewpager-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\f7d42a89bbc0bfbae603b39ca6ff8a9c\AndroidManifest.xml:17:1-22:12
+MERGED from [:com.google.android.gms.play-services-auth-18.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\dea66c0bfa724afe98dc5836850dfdec\AndroidManifest.xml:17:1-39:12
+MERGED from [:com.google.android.gms.play-services-auth-api-phone-17.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\294910b1d13f91d35b0a187392c485a8\AndroidManifest.xml:2:1-7:12
+MERGED from [:com.google.android.gms.play-services-auth-base-17.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\1ce257fbe51e9855b6b40631d87bdc92\AndroidManifest.xml:2:1-7:12
+MERGED from [:com.google.android.gms.play-services-base-17.1.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\4ba84e042adba696e2b88c22dfec4457\AndroidManifest.xml:17:1-29:12
+MERGED from [:com.google.android.gms.play-services-basement-17.1.1:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\b98cb4105f2fbc2bf94932cf61be2d89\AndroidManifest.xml:17:1-28:12
+MERGED from [:com.google.android.gms.play-services-drive-17.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\049b9da9fbbd861464057e68449f4e87\AndroidManifest.xml:17:1-24:12
+MERGED from [:com.google.android.gms.play-services-games-19.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\f56153989395f71d631c9f24f2361fb7\AndroidManifest.xml:17:1-24:12
+MERGED from [:com.google.android.gms.play-services-nearby-17.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\cb6c3270b25d2289192b3f0bde7794d1\AndroidManifest.xml:2:1-11:12
+MERGED from [:com.google.android.gms.play-services-tasks-17.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\68d6569fd68d092e6ae09b009e31fac6\AndroidManifest.xml:2:1-9:12
+MERGED from [:com.google.games.gpgs-plugin-support-0.10.09:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\ee82f86cc2754d17b905efb6be3a95c0\AndroidManifest.xml:2:1-11:12
+MERGED from [:UnityAds:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\3c2d32fbee5f0c4ac2cb7c01d76db71b\AndroidManifest.xml:2:1-37:12
+MERGED from [:UnityAdsAndroidPlugin:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\fd86237a1fbed3000d600766d066ab52\AndroidManifest.xml:2:1-11:12
+MERGED from [:unityLibrary:GooglePlayGamesManifest.plugin] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\GooglePlayGamesManifest.plugin\build\intermediates\library_manifest\release\AndroidManifest.xml:6:1-32:12
+INJECTED from D:\Github\Unity\FallingObjects\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:1-6:12
+INJECTED from D:\Github\Unity\FallingObjects\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:1-6:12
+INJECTED from D:\Github\Unity\FallingObjects\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:1-6:12
+	package
+		ADDED from D:\Github\Unity\FallingObjects\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:70-105
+		INJECTED from D:\Github\Unity\FallingObjects\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+		INJECTED from D:\Github\Unity\FallingObjects\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Github\Unity\FallingObjects\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+		ADDED from D:\Github\Unity\FallingObjects\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:1-6:12
+		INJECTED from D:\Github\Unity\FallingObjects\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\Github\Unity\FallingObjects\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:106-152
+	android:versionCode
+		INJECTED from D:\Github\Unity\FallingObjects\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+		ADDED from D:\Github\Unity\FallingObjects\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:1-6:12
+		INJECTED from D:\Github\Unity\FallingObjects\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Github\Unity\FallingObjects\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:11-69
+	android:installLocation
+		ADDED from D:\Github\Unity\FallingObjects\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:153-193
+supports-screens
+ADDED from D:\Github\Unity\FallingObjects\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:4:3-163
+	android:largeScreens
+		ADDED from D:\Github\Unity\FallingObjects\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:4:78-105
+	android:smallScreens
+		ADDED from D:\Github\Unity\FallingObjects\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:4:21-48
+	android:normalScreens
+		ADDED from D:\Github\Unity\FallingObjects\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:4:49-77
+	android:xlargeScreens
+		ADDED from D:\Github\Unity\FallingObjects\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:4:106-134
+	android:anyDensity
+		ADDED from D:\Github\Unity\FallingObjects\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:4:135-160
+application
+ADDED from D:\Github\Unity\FallingObjects\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:5:3-83
+MERGED from [:unityLibrary] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:31:5-65:19
+MERGED from [:unityLibrary] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:31:5-65:19
+MERGED from [:androidx.core.core-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\c3b6755c78e0b3773cd70de08e35bd6e\AndroidManifest.xml:22:5-89
+MERGED from [:androidx.core.core-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\c3b6755c78e0b3773cd70de08e35bd6e\AndroidManifest.xml:22:5-89
+MERGED from [:androidx.versionedparcelable.versionedparcelable-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\eb775cea9c109fe86fc3a5d9274e82cd\AndroidManifest.xml:22:5-23:19
+MERGED from [:androidx.versionedparcelable.versionedparcelable-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\eb775cea9c109fe86fc3a5d9274e82cd\AndroidManifest.xml:22:5-23:19
+MERGED from [:com.google.android.gms.play-services-auth-18.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\dea66c0bfa724afe98dc5836850dfdec\AndroidManifest.xml:22:5-37:19
+MERGED from [:com.google.android.gms.play-services-auth-18.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\dea66c0bfa724afe98dc5836850dfdec\AndroidManifest.xml:22:5-37:19
+MERGED from [:com.google.android.gms.play-services-base-17.1.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\4ba84e042adba696e2b88c22dfec4457\AndroidManifest.xml:22:5-27:19
+MERGED from [:com.google.android.gms.play-services-base-17.1.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\4ba84e042adba696e2b88c22dfec4457\AndroidManifest.xml:22:5-27:19
+MERGED from [:com.google.android.gms.play-services-basement-17.1.1:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\b98cb4105f2fbc2bf94932cf61be2d89\AndroidManifest.xml:22:5-26:19
+MERGED from [:com.google.android.gms.play-services-basement-17.1.1:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\b98cb4105f2fbc2bf94932cf61be2d89\AndroidManifest.xml:22:5-26:19
+MERGED from [:com.google.android.gms.play-services-drive-17.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\049b9da9fbbd861464057e68449f4e87\AndroidManifest.xml:22:5-20
+MERGED from [:com.google.android.gms.play-services-drive-17.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\049b9da9fbbd861464057e68449f4e87\AndroidManifest.xml:22:5-20
+MERGED from [:com.google.android.gms.play-services-games-19.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\f56153989395f71d631c9f24f2361fb7\AndroidManifest.xml:22:5-20
+MERGED from [:com.google.android.gms.play-services-games-19.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\f56153989395f71d631c9f24f2361fb7\AndroidManifest.xml:22:5-20
+MERGED from [:com.google.android.gms.play-services-nearby-17.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\cb6c3270b25d2289192b3f0bde7794d1\AndroidManifest.xml:9:5-20
+MERGED from [:com.google.android.gms.play-services-nearby-17.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\cb6c3270b25d2289192b3f0bde7794d1\AndroidManifest.xml:9:5-20
+MERGED from [:com.google.android.gms.play-services-tasks-17.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\68d6569fd68d092e6ae09b009e31fac6\AndroidManifest.xml:7:5-20
+MERGED from [:com.google.android.gms.play-services-tasks-17.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\68d6569fd68d092e6ae09b009e31fac6\AndroidManifest.xml:7:5-20
+MERGED from [:com.google.games.gpgs-plugin-support-0.10.09:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\ee82f86cc2754d17b905efb6be3a95c0\AndroidManifest.xml:9:5-20
+MERGED from [:com.google.games.gpgs-plugin-support-0.10.09:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\ee82f86cc2754d17b905efb6be3a95c0\AndroidManifest.xml:9:5-20
+MERGED from [:UnityAds:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\3c2d32fbee5f0c4ac2cb7c01d76db71b\AndroidManifest.xml:14:5-35:19
+MERGED from [:UnityAds:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\3c2d32fbee5f0c4ac2cb7c01d76db71b\AndroidManifest.xml:14:5-35:19
+MERGED from [:unityLibrary:GooglePlayGamesManifest.plugin] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\GooglePlayGamesManifest.plugin\build\intermediates\library_manifest\release\AndroidManifest.xml:15:5-30:19
+MERGED from [:unityLibrary:GooglePlayGamesManifest.plugin] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\GooglePlayGamesManifest.plugin\build\intermediates\library_manifest\release\AndroidManifest.xml:15:5-30:19
+	android:appComponentFactory
+		ADDED from [:androidx.core.core-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\c3b6755c78e0b3773cd70de08e35bd6e\AndroidManifest.xml:22:18-86
+	android:label
+		ADDED from D:\Github\Unity\FallingObjects\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:5:16-48
+	android:icon
+		ADDED from D:\Github\Unity\FallingObjects\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:5:49-80
+uses-sdk
+INJECTED from D:\Github\Unity\FallingObjects\Temp\gradleOut\launcher\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Github\Unity\FallingObjects\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+INJECTED from D:\Github\Unity\FallingObjects\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+MERGED from [:unityLibrary] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:9:5-11:41
+MERGED from [:unityLibrary] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:9:5-11:41
+MERGED from [:androidx.arch.core.core-runtime-2.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\7a8f3510ab3b8d4341c80599017560c4\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.arch.core.core-runtime-2.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\7a8f3510ab3b8d4341c80599017560c4\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.asynclayoutinflater.asynclayoutinflater-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\97a9166a70e782c6602600aad3365713\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.asynclayoutinflater.asynclayoutinflater-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\97a9166a70e782c6602600aad3365713\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.coordinatorlayout.coordinatorlayout-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\c600ca4a6e973b7f119ec9f70a2e2d57\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.coordinatorlayout.coordinatorlayout-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\c600ca4a6e973b7f119ec9f70a2e2d57\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.core.core-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\c3b6755c78e0b3773cd70de08e35bd6e\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.core.core-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\c3b6755c78e0b3773cd70de08e35bd6e\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.cursoradapter.cursoradapter-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\c9dec0f8cfb7dda88d3fe2a9c8b68dbf\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.cursoradapter.cursoradapter-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\c9dec0f8cfb7dda88d3fe2a9c8b68dbf\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.customview.customview-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\b2bac5f3e3e3ab9e8e9053a5ee91dbc2\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.customview.customview-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\b2bac5f3e3e3ab9e8e9053a5ee91dbc2\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.documentfile.documentfile-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\f8acfb4fba86a5fd1a3eb0623cc10cea\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.documentfile.documentfile-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\f8acfb4fba86a5fd1a3eb0623cc10cea\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.drawerlayout.drawerlayout-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\3c6ffcc5067299aee93d6446c1056979\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.drawerlayout.drawerlayout-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\3c6ffcc5067299aee93d6446c1056979\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.fragment.fragment-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\1c6594d426ca98702d1731db8df146f8\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.fragment.fragment-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\1c6594d426ca98702d1731db8df146f8\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.interpolator.interpolator-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\fc0e4c7bbc9a27bf2ac523f85b28b809\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.interpolator.interpolator-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\fc0e4c7bbc9a27bf2ac523f85b28b809\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.legacy.legacy-support-core-ui-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\eb6df244166702619db71bff9183289f\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.legacy.legacy-support-core-ui-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\eb6df244166702619db71bff9183289f\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.legacy.legacy-support-core-utils-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\0f081b44b159aab34c71fd4265a7f22c\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.legacy.legacy-support-core-utils-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\0f081b44b159aab34c71fd4265a7f22c\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.lifecycle.lifecycle-livedata-2.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\0659a1b22c6401e3e9221bcedc3fd9bb\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.lifecycle.lifecycle-livedata-2.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\0659a1b22c6401e3e9221bcedc3fd9bb\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.lifecycle.lifecycle-livedata-core-2.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\abe21128156eb8a2db10850a16207cc0\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.lifecycle.lifecycle-livedata-core-2.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\abe21128156eb8a2db10850a16207cc0\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.lifecycle.lifecycle-runtime-2.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\d057cc847de617f6d7da50da1a1100fa\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.lifecycle.lifecycle-runtime-2.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\d057cc847de617f6d7da50da1a1100fa\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.lifecycle.lifecycle-viewmodel-2.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\1fa701e5eec91d131c7155ffdd5eff1f\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.lifecycle.lifecycle-viewmodel-2.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\1fa701e5eec91d131c7155ffdd5eff1f\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.loader.loader-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\c5a1b965b6a6f4b0deedd3f5562998c0\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.loader.loader-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\c5a1b965b6a6f4b0deedd3f5562998c0\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.localbroadcastmanager.localbroadcastmanager-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\6e1391671dd7dab13f1c8c29ac6fe4c9\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.localbroadcastmanager.localbroadcastmanager-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\6e1391671dd7dab13f1c8c29ac6fe4c9\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.print.print-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\0a52cc877ec701884fffeb54cd61e432\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.print.print-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\0a52cc877ec701884fffeb54cd61e432\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.slidingpanelayout.slidingpanelayout-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\5d548e594f68498a4fe06679afea48df\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.slidingpanelayout.slidingpanelayout-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\5d548e594f68498a4fe06679afea48df\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.swiperefreshlayout.swiperefreshlayout-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\932f70d7a9519ad014a06f6dba6c6279\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.swiperefreshlayout.swiperefreshlayout-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\932f70d7a9519ad014a06f6dba6c6279\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.versionedparcelable.versionedparcelable-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\eb775cea9c109fe86fc3a5d9274e82cd\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.versionedparcelable.versionedparcelable-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\eb775cea9c109fe86fc3a5d9274e82cd\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.viewpager.viewpager-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\f7d42a89bbc0bfbae603b39ca6ff8a9c\AndroidManifest.xml:20:5-44
+MERGED from [:androidx.viewpager.viewpager-1.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\f7d42a89bbc0bfbae603b39ca6ff8a9c\AndroidManifest.xml:20:5-44
+MERGED from [:com.google.android.gms.play-services-auth-18.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\dea66c0bfa724afe98dc5836850dfdec\AndroidManifest.xml:20:5-44
+MERGED from [:com.google.android.gms.play-services-auth-18.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\dea66c0bfa724afe98dc5836850dfdec\AndroidManifest.xml:20:5-44
+MERGED from [:com.google.android.gms.play-services-auth-api-phone-17.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\294910b1d13f91d35b0a187392c485a8\AndroidManifest.xml:5:5-44
+MERGED from [:com.google.android.gms.play-services-auth-api-phone-17.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\294910b1d13f91d35b0a187392c485a8\AndroidManifest.xml:5:5-44
+MERGED from [:com.google.android.gms.play-services-auth-base-17.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\1ce257fbe51e9855b6b40631d87bdc92\AndroidManifest.xml:5:5-44
+MERGED from [:com.google.android.gms.play-services-auth-base-17.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\1ce257fbe51e9855b6b40631d87bdc92\AndroidManifest.xml:5:5-44
+MERGED from [:com.google.android.gms.play-services-base-17.1.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\4ba84e042adba696e2b88c22dfec4457\AndroidManifest.xml:20:5-44
+MERGED from [:com.google.android.gms.play-services-base-17.1.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\4ba84e042adba696e2b88c22dfec4457\AndroidManifest.xml:20:5-44
+MERGED from [:com.google.android.gms.play-services-basement-17.1.1:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\b98cb4105f2fbc2bf94932cf61be2d89\AndroidManifest.xml:20:5-44
+MERGED from [:com.google.android.gms.play-services-basement-17.1.1:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\b98cb4105f2fbc2bf94932cf61be2d89\AndroidManifest.xml:20:5-44
+MERGED from [:com.google.android.gms.play-services-drive-17.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\049b9da9fbbd861464057e68449f4e87\AndroidManifest.xml:20:5-44
+MERGED from [:com.google.android.gms.play-services-drive-17.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\049b9da9fbbd861464057e68449f4e87\AndroidManifest.xml:20:5-44
+MERGED from [:com.google.android.gms.play-services-games-19.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\f56153989395f71d631c9f24f2361fb7\AndroidManifest.xml:20:5-44
+MERGED from [:com.google.android.gms.play-services-games-19.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\f56153989395f71d631c9f24f2361fb7\AndroidManifest.xml:20:5-44
+MERGED from [:com.google.android.gms.play-services-nearby-17.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\cb6c3270b25d2289192b3f0bde7794d1\AndroidManifest.xml:5:5-44
+MERGED from [:com.google.android.gms.play-services-nearby-17.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\cb6c3270b25d2289192b3f0bde7794d1\AndroidManifest.xml:5:5-44
+MERGED from [:com.google.android.gms.play-services-tasks-17.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\68d6569fd68d092e6ae09b009e31fac6\AndroidManifest.xml:5:5-44
+MERGED from [:com.google.android.gms.play-services-tasks-17.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\68d6569fd68d092e6ae09b009e31fac6\AndroidManifest.xml:5:5-44
+MERGED from [:com.google.games.gpgs-plugin-support-0.10.09:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\ee82f86cc2754d17b905efb6be3a95c0\AndroidManifest.xml:7:5-44
+MERGED from [:com.google.games.gpgs-plugin-support-0.10.09:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\ee82f86cc2754d17b905efb6be3a95c0\AndroidManifest.xml:7:5-44
+MERGED from [:UnityAds:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\3c2d32fbee5f0c4ac2cb7c01d76db71b\AndroidManifest.xml:7:5-9:41
+MERGED from [:UnityAds:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\3c2d32fbee5f0c4ac2cb7c01d76db71b\AndroidManifest.xml:7:5-9:41
+MERGED from [:UnityAdsAndroidPlugin:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\fd86237a1fbed3000d600766d066ab52\AndroidManifest.xml:7:5-9:41
+MERGED from [:UnityAdsAndroidPlugin:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\fd86237a1fbed3000d600766d066ab52\AndroidManifest.xml:7:5-9:41
+MERGED from [:unityLibrary:GooglePlayGamesManifest.plugin] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\GooglePlayGamesManifest.plugin\build\intermediates\library_manifest\release\AndroidManifest.xml:11:5-13:41
+MERGED from [:unityLibrary:GooglePlayGamesManifest.plugin] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\GooglePlayGamesManifest.plugin\build\intermediates\library_manifest\release\AndroidManifest.xml:11:5-13:41
+INJECTED from D:\Github\Unity\FallingObjects\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+INJECTED from D:\Github\Unity\FallingObjects\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Github\Unity\FallingObjects\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+		ADDED from D:\Github\Unity\FallingObjects\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+		INJECTED from D:\Github\Unity\FallingObjects\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Github\Unity\FallingObjects\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+		ADDED from D:\Github\Unity\FallingObjects\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+		INJECTED from D:\Github\Unity\FallingObjects\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+uses-feature#0x00030000
+ADDED from [:unityLibrary] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:13:5-54
+	android:glEsVersion
+		ADDED from [:unityLibrary] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:13:19-51
+uses-feature#android.hardware.vulkan.version
+ADDED from [:unityLibrary] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:14:5-16:36
+	android:required
+		ADDED from [:unityLibrary] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:16:9-33
+	android:name
+		ADDED from [:unityLibrary] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:15:9-55
+uses-permission#android.permission.INTERNET
+ADDED from [:unityLibrary] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:18:5-67
+MERGED from [:UnityAds:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\3c2d32fbee5f0c4ac2cb7c01d76db71b\AndroidManifest.xml:12:5-67
+MERGED from [:UnityAds:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\3c2d32fbee5f0c4ac2cb7c01d76db71b\AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from [:unityLibrary] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:18:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:unityLibrary] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:19:5-79
+MERGED from [:com.google.android.gms.play-services-nearby-17.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\cb6c3270b25d2289192b3f0bde7794d1\AndroidManifest.xml:7:5-79
+MERGED from [:com.google.android.gms.play-services-nearby-17.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\cb6c3270b25d2289192b3f0bde7794d1\AndroidManifest.xml:7:5-79
+MERGED from [:UnityAds:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\3c2d32fbee5f0c4ac2cb7c01d76db71b\AndroidManifest.xml:11:5-79
+MERGED from [:UnityAds:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\3c2d32fbee5f0c4ac2cb7c01d76db71b\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from [:unityLibrary] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:19:22-76
+uses-feature#android.hardware.touchscreen
+ADDED from [:unityLibrary] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:21:5-23:36
+	android:required
+		ADDED from [:unityLibrary] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:23:9-33
+	android:name
+		ADDED from [:unityLibrary] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:22:9-52
+uses-feature#android.hardware.touchscreen.multitouch
+ADDED from [:unityLibrary] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:24:5-26:36
+	android:required
+		ADDED from [:unityLibrary] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:26:9-33
+	android:name
+		ADDED from [:unityLibrary] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:25:9-63
+uses-feature#android.hardware.touchscreen.multitouch.distinct
+ADDED from [:unityLibrary] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:27:5-29:36
+	android:required
+		ADDED from [:unityLibrary] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:29:9-33
+	android:name
+		ADDED from [:unityLibrary] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:28:9-72
+activity#com.unity3d.player.UnityPlayerActivity
+ADDED from [:unityLibrary] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:32:9-51:20
+	android:screenOrientation
+		ADDED from [:unityLibrary] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:37:13-49
+	android:launchMode
+		ADDED from [:unityLibrary] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:36:13-44
+	android:hardwareAccelerated
+		ADDED from [:unityLibrary] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:35:13-48
+	android:configChanges
+		ADDED from [:unityLibrary] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:34:13-194
+	android:theme
+		ADDED from [:unityLibrary] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:38:13-54
+	android:name
+		ADDED from [:unityLibrary] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:33:13-66
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from [:unityLibrary] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:39:13-43:29
+action#android.intent.action.MAIN
+ADDED from [:unityLibrary] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:40:17-69
+	android:name
+		ADDED from [:unityLibrary] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:40:25-66
+category#android.intent.category.LAUNCHER
+ADDED from [:unityLibrary] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:42:17-77
+	android:name
+		ADDED from [:unityLibrary] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:42:27-74
+meta-data#unityplayer.UnityActivity
+ADDED from [:unityLibrary] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:45:13-47:40
+	android:value
+		ADDED from [:unityLibrary] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:47:17-37
+	android:name
+		ADDED from [:unityLibrary] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:46:17-57
+meta-data#android.notch_support
+ADDED from [:unityLibrary] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:48:13-50:40
+	android:value
+		ADDED from [:unityLibrary] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:50:17-37
+	android:name
+		ADDED from [:unityLibrary] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:49:17-53
+meta-data#unity.splash-mode
+ADDED from [:unityLibrary] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:53:9-55:33
+	android:value
+		ADDED from [:unityLibrary] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:55:13-30
+	android:name
+		ADDED from [:unityLibrary] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:54:13-45
+meta-data#unity.splash-enable
+ADDED from [:unityLibrary] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:56:9-58:36
+	android:value
+		ADDED from [:unityLibrary] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:58:13-33
+	android:name
+		ADDED from [:unityLibrary] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:57:13-47
+meta-data#notch.config
+ADDED from [:unityLibrary] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:59:9-61:50
+	android:value
+		ADDED from [:unityLibrary] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:61:13-47
+	android:name
+		ADDED from [:unityLibrary] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:60:13-40
+meta-data#unity.build-id
+ADDED from [:unityLibrary] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:62:9-64:68
+	android:value
+		ADDED from [:unityLibrary] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:64:13-65
+	android:name
+		ADDED from [:unityLibrary] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:63:13-42
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [:com.google.android.gms.play-services-auth-18.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\dea66c0bfa724afe98dc5836850dfdec\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [:com.google.android.gms.play-services-auth-18.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\dea66c0bfa724afe98dc5836850dfdec\AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [:com.google.android.gms.play-services-auth-18.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\dea66c0bfa724afe98dc5836850dfdec\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [:com.google.android.gms.play-services-auth-18.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\dea66c0bfa724afe98dc5836850dfdec\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [:com.google.android.gms.play-services-auth-18.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\dea66c0bfa724afe98dc5836850dfdec\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [:com.google.android.gms.play-services-auth-18.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\dea66c0bfa724afe98dc5836850dfdec\AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [:com.google.android.gms.play-services-auth-18.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\dea66c0bfa724afe98dc5836850dfdec\AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [:com.google.android.gms.play-services-auth-18.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\dea66c0bfa724afe98dc5836850dfdec\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [:com.google.android.gms.play-services-auth-18.0.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\dea66c0bfa724afe98dc5836850dfdec\AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [:com.google.android.gms.play-services-base-17.1.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\4ba84e042adba696e2b88c22dfec4457\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [:com.google.android.gms.play-services-base-17.1.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\4ba84e042adba696e2b88c22dfec4457\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [:com.google.android.gms.play-services-base-17.1.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\4ba84e042adba696e2b88c22dfec4457\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [:com.google.android.gms.play-services-base-17.1.0:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\4ba84e042adba696e2b88c22dfec4457\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [:com.google.android.gms.play-services-basement-17.1.1:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\b98cb4105f2fbc2bf94932cf61be2d89\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [:com.google.android.gms.play-services-basement-17.1.1:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\b98cb4105f2fbc2bf94932cf61be2d89\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [:com.google.android.gms.play-services-basement-17.1.1:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\b98cb4105f2fbc2bf94932cf61be2d89\AndroidManifest.xml:24:13-58
+activity#com.unity3d.services.ads.adunit.AdUnitActivity
+ADDED from [:UnityAds:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\3c2d32fbee5f0c4ac2cb7c01d76db71b\AndroidManifest.xml:15:9-19:74
+	android:hardwareAccelerated
+		ADDED from [:UnityAds:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\3c2d32fbee5f0c4ac2cb7c01d76db71b\AndroidManifest.xml:18:13-47
+	android:configChanges
+		ADDED from [:UnityAds:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\3c2d32fbee5f0c4ac2cb7c01d76db71b\AndroidManifest.xml:17:13-170
+	android:theme
+		ADDED from [:UnityAds:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\3c2d32fbee5f0c4ac2cb7c01d76db71b\AndroidManifest.xml:19:13-71
+	android:name
+		ADDED from [:UnityAds:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\3c2d32fbee5f0c4ac2cb7c01d76db71b\AndroidManifest.xml:16:13-74
+activity#com.unity3d.services.ads.adunit.AdUnitTransparentActivity
+ADDED from [:UnityAds:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\3c2d32fbee5f0c4ac2cb7c01d76db71b\AndroidManifest.xml:20:9-24:86
+	android:hardwareAccelerated
+		ADDED from [:UnityAds:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\3c2d32fbee5f0c4ac2cb7c01d76db71b\AndroidManifest.xml:23:13-47
+	android:configChanges
+		ADDED from [:UnityAds:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\3c2d32fbee5f0c4ac2cb7c01d76db71b\AndroidManifest.xml:22:13-170
+	android:theme
+		ADDED from [:UnityAds:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\3c2d32fbee5f0c4ac2cb7c01d76db71b\AndroidManifest.xml:24:13-83
+	android:name
+		ADDED from [:UnityAds:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\3c2d32fbee5f0c4ac2cb7c01d76db71b\AndroidManifest.xml:21:13-85
+activity#com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity
+ADDED from [:UnityAds:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\3c2d32fbee5f0c4ac2cb7c01d76db71b\AndroidManifest.xml:25:9-29:86
+	android:hardwareAccelerated
+		ADDED from [:UnityAds:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\3c2d32fbee5f0c4ac2cb7c01d76db71b\AndroidManifest.xml:28:13-48
+	android:configChanges
+		ADDED from [:UnityAds:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\3c2d32fbee5f0c4ac2cb7c01d76db71b\AndroidManifest.xml:27:13-170
+	android:theme
+		ADDED from [:UnityAds:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\3c2d32fbee5f0c4ac2cb7c01d76db71b\AndroidManifest.xml:29:13-83
+	android:name
+		ADDED from [:UnityAds:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\3c2d32fbee5f0c4ac2cb7c01d76db71b\AndroidManifest.xml:26:13-93
+activity#com.unity3d.services.ads.adunit.AdUnitSoftwareActivity
+ADDED from [:UnityAds:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\3c2d32fbee5f0c4ac2cb7c01d76db71b\AndroidManifest.xml:30:9-34:74
+	android:hardwareAccelerated
+		ADDED from [:UnityAds:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\3c2d32fbee5f0c4ac2cb7c01d76db71b\AndroidManifest.xml:33:13-48
+	android:configChanges
+		ADDED from [:UnityAds:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\3c2d32fbee5f0c4ac2cb7c01d76db71b\AndroidManifest.xml:32:13-170
+	android:theme
+		ADDED from [:UnityAds:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\3c2d32fbee5f0c4ac2cb7c01d76db71b\AndroidManifest.xml:34:13-71
+	android:name
+		ADDED from [:UnityAds:] C:\Users\artem\.gradle\caches\transforms-2\files-2.1\3c2d32fbee5f0c4ac2cb7c01d76db71b\AndroidManifest.xml:31:13-82
+meta-data#com.google.android.gms.games.APP_ID
+ADDED from [:unityLibrary:GooglePlayGamesManifest.plugin] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\GooglePlayGamesManifest.plugin\build\intermediates\library_manifest\release\AndroidManifest.xml:18:9-20:49
+	android:value
+		ADDED from [:unityLibrary:GooglePlayGamesManifest.plugin] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\GooglePlayGamesManifest.plugin\build\intermediates\library_manifest\release\AndroidManifest.xml:20:13-46
+	android:name
+		ADDED from [:unityLibrary:GooglePlayGamesManifest.plugin] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\GooglePlayGamesManifest.plugin\build\intermediates\library_manifest\release\AndroidManifest.xml:19:13-63
+meta-data#com.google.android.gms.games.unityVersion
+ADDED from [:unityLibrary:GooglePlayGamesManifest.plugin] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\GooglePlayGamesManifest.plugin\build\intermediates\library_manifest\release\AndroidManifest.xml:23:9-25:44
+	android:value
+		ADDED from [:unityLibrary:GooglePlayGamesManifest.plugin] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\GooglePlayGamesManifest.plugin\build\intermediates\library_manifest\release\AndroidManifest.xml:25:13-41
+	android:name
+		ADDED from [:unityLibrary:GooglePlayGamesManifest.plugin] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\GooglePlayGamesManifest.plugin\build\intermediates\library_manifest\release\AndroidManifest.xml:24:13-69
+activity#com.google.games.bridge.NativeBridgeActivity
+ADDED from [:unityLibrary:GooglePlayGamesManifest.plugin] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\GooglePlayGamesManifest.plugin\build\intermediates\library_manifest\release\AndroidManifest.xml:27:9-29:86
+	android:theme
+		ADDED from [:unityLibrary:GooglePlayGamesManifest.plugin] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\GooglePlayGamesManifest.plugin\build\intermediates\library_manifest\release\AndroidManifest.xml:29:13-83
+	android:name
+		ADDED from [:unityLibrary:GooglePlayGamesManifest.plugin] D:\Github\Unity\FallingObjects\Temp\gradleOut\unityLibrary\GooglePlayGamesManifest.plugin\build\intermediates\library_manifest\release\AndroidManifest.xml:28:13-72

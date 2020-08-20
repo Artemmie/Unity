@@ -1,0 +1,358 @@
+[
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\4ba84e042adba696e2b88c22dfec4457\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\c3b6755c78e0b3773cd70de08e35bd6e\\res\\drawable-hdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_googleg_disabled_color_18.png.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\4ba84e042adba696e2b88c22dfec4457\\res\\drawable-hdpi-v4\\googleg_disabled_color_18.png"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable-v21_notification_action_background.xml.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\c3b6755c78e0b3773cd70de08e35bd6e\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_googleg_standard_color_18.png.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\4ba84e042adba696e2b88c22dfec4457\\res\\drawable-hdpi-v4\\googleg_standard_color_18.png"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\layout_notification_action.xml.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\c3b6755c78e0b3773cd70de08e35bd6e\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\4ba84e042adba696e2b88c22dfec4457\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_googleg_disabled_color_18.png.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\4ba84e042adba696e2b88c22dfec4457\\res\\drawable-mdpi-v4\\googleg_disabled_color_18.png"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\4ba84e042adba696e2b88c22dfec4457\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\c3b6755c78e0b3773cd70de08e35bd6e\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi_app_icon_round.png.flat",
+        "source": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\src\\main\\res\\mipmap-hdpi\\app_icon_round.png"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_icon_light_normal.xml.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\4ba84e042adba696e2b88c22dfec4457\\res\\drawable\\common_google_signin_btn_icon_light_normal.xml"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_app_icon_round.png.flat",
+        "source": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\src\\main\\res\\mipmap-xxhdpi\\app_icon_round.png"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_app_icon_round.png.flat",
+        "source": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\src\\main\\res\\mipmap-mdpi\\app_icon_round.png"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_text_dark_focused.xml.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\4ba84e042adba696e2b88c22dfec4457\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable-watch-v20_common_google_signin_btn_text_light_normal.xml.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\dea66c0bfa724afe98dc5836850dfdec\\res\\drawable-watch-v20\\common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\c3b6755c78e0b3773cd70de08e35bd6e\\res\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\mipmap-ldpi_app_icon.png.flat",
+        "source": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\src\\main\\res\\mipmap-ldpi\\app_icon.png"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\c3b6755c78e0b3773cd70de08e35bd6e\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_icon_light_focused.xml.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\4ba84e042adba696e2b88c22dfec4457\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\layout_notification_template_part_chronometer.xml.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\c3b6755c78e0b3773cd70de08e35bd6e\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_app_icon.png.flat",
+        "source": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\src\\main\\res\\mipmap-mdpi\\app_icon.png"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\4ba84e042adba696e2b88c22dfec4457\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\4ba84e042adba696e2b88c22dfec4457\\res\\drawable-xhdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi_app_icon_round.png.flat",
+        "source": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\src\\main\\res\\mipmap-xhdpi\\app_icon_round.png"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_icon_disabled.xml.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\4ba84e042adba696e2b88c22dfec4457\\res\\drawable\\common_google_signin_btn_icon_disabled.xml"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\c3b6755c78e0b3773cd70de08e35bd6e\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\4ba84e042adba696e2b88c22dfec4457\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\4ba84e042adba696e2b88c22dfec4457\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\4ba84e042adba696e2b88c22dfec4457\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable-watch-v20_common_google_signin_btn_text_dark_normal.xml.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\dea66c0bfa724afe98dc5836850dfdec\\res\\drawable-watch-v20\\common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_icon_dark_normal.xml.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\4ba84e042adba696e2b88c22dfec4457\\res\\drawable\\common_google_signin_btn_icon_dark_normal.xml"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\c3b6755c78e0b3773cd70de08e35bd6e\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\c3b6755c78e0b3773cd70de08e35bd6e\\res\\drawable-hdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\4ba84e042adba696e2b88c22dfec4457\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\c3b6755c78e0b3773cd70de08e35bd6e\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable_notification_bg.xml.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\c3b6755c78e0b3773cd70de08e35bd6e\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_text_disabled.xml.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\4ba84e042adba696e2b88c22dfec4457\\res\\drawable\\common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\c3b6755c78e0b3773cd70de08e35bd6e\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_googleg_standard_color_18.png.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\4ba84e042adba696e2b88c22dfec4457\\res\\drawable-xxhdpi-v4\\googleg_standard_color_18.png"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\layout_notification_template_part_time.xml.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\c3b6755c78e0b3773cd70de08e35bd6e\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_googleg_standard_color_18.png.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\4ba84e042adba696e2b88c22dfec4457\\res\\drawable-mdpi-v4\\googleg_standard_color_18.png"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\mipmap-ldpi_app_icon_round.png.flat",
+        "source": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\src\\main\\res\\mipmap-ldpi\\app_icon_round.png"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\4ba84e042adba696e2b88c22dfec4457\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\4ba84e042adba696e2b88c22dfec4457\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\c3b6755c78e0b3773cd70de08e35bd6e\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_googleg_disabled_color_18.png.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\4ba84e042adba696e2b88c22dfec4457\\res\\drawable-xhdpi-v4\\googleg_disabled_color_18.png"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_app_icon_round.png.flat",
+        "source": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\src\\main\\res\\mipmap-xxxhdpi\\app_icon_round.png"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\c3b6755c78e0b3773cd70de08e35bd6e\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\color_common_google_signin_btn_text_dark.xml.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\4ba84e042adba696e2b88c22dfec4457\\res\\color\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\c3b6755c78e0b3773cd70de08e35bd6e\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\layout_notification_action_tombstone.xml.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\c3b6755c78e0b3773cd70de08e35bd6e\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\4ba84e042adba696e2b88c22dfec4457\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\color_common_google_signin_btn_tint.xml.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\4ba84e042adba696e2b88c22dfec4457\\res\\color\\common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_googleg_standard_color_18.png.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\4ba84e042adba696e2b88c22dfec4457\\res\\drawable-xhdpi-v4\\googleg_standard_color_18.png"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\layout-v21_notification_action_tombstone.xml.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\c3b6755c78e0b3773cd70de08e35bd6e\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\c3b6755c78e0b3773cd70de08e35bd6e\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_app_icon.png.flat",
+        "source": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\src\\main\\res\\mipmap-xxxhdpi\\app_icon.png"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\layout-v21_notification_template_icon_group.xml.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\c3b6755c78e0b3773cd70de08e35bd6e\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_icon_dark.xml.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\4ba84e042adba696e2b88c22dfec4457\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable-nodpi-v4_ic_launcher.png.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\ee82f86cc2754d17b905efb6be3a95c0\\res\\drawable-nodpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_text_light_normal.xml.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\4ba84e042adba696e2b88c22dfec4457\\res\\drawable\\common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\layout-v16_notification_template_custom_big.xml.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\c3b6755c78e0b3773cd70de08e35bd6e\\res\\layout-v16\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\c3b6755c78e0b3773cd70de08e35bd6e\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_app_icon.png.flat",
+        "source": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\src\\main\\res\\mipmap-xxhdpi\\app_icon.png"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_icon_dark_focused.xml.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\4ba84e042adba696e2b88c22dfec4457\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi_app_icon.png.flat",
+        "source": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\src\\main\\res\\mipmap-hdpi\\app_icon.png"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\4ba84e042adba696e2b88c22dfec4457\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable_notification_tile_bg.xml.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\c3b6755c78e0b3773cd70de08e35bd6e\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable_notification_icon_background.xml.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\c3b6755c78e0b3773cd70de08e35bd6e\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\c3b6755c78e0b3773cd70de08e35bd6e\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\color_common_google_signin_btn_text_light.xml.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\4ba84e042adba696e2b88c22dfec4457\\res\\color\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_text_light.xml.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\4ba84e042adba696e2b88c22dfec4457\\res\\drawable\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\layout-v21_notification_action.xml.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\c3b6755c78e0b3773cd70de08e35bd6e\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\4ba84e042adba696e2b88c22dfec4457\\res\\drawable-xhdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable-watch-v20_common_google_signin_btn_text_disabled.xml.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\dea66c0bfa724afe98dc5836850dfdec\\res\\drawable-watch-v20\\common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_text_dark.xml.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\4ba84e042adba696e2b88c22dfec4457\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi_app_icon.png.flat",
+        "source": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\src\\main\\res\\mipmap-xhdpi\\app_icon.png"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_text_dark_normal.xml.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\4ba84e042adba696e2b88c22dfec4457\\res\\drawable\\common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\layout-v21_notification_template_custom_big.xml.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\c3b6755c78e0b3773cd70de08e35bd6e\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_common_full_open_on_phone.png.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\4ba84e042adba696e2b88c22dfec4457\\res\\drawable-hdpi-v4\\common_full_open_on_phone.png"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_googleg_disabled_color_18.png.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\4ba84e042adba696e2b88c22dfec4457\\res\\drawable-xxhdpi-v4\\googleg_disabled_color_18.png"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\4ba84e042adba696e2b88c22dfec4457\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\4ba84e042adba696e2b88c22dfec4457\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_text_light_focused.xml.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\4ba84e042adba696e2b88c22dfec4457\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\layout_notification_template_icon_group.xml.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\c3b6755c78e0b3773cd70de08e35bd6e\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_common_full_open_on_phone.png.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\4ba84e042adba696e2b88c22dfec4457\\res\\drawable-xhdpi-v4\\common_full_open_on_phone.png"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable_notification_bg_low.xml.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\c3b6755c78e0b3773cd70de08e35bd6e\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "D:\\Github\\Unity\\FallingObjects\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_icon_light.xml.flat",
+        "source": "C:\\Users\\artem\\.gradle\\caches\\transforms-2\\files-2.1\\4ba84e042adba696e2b88c22dfec4457\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+    }
+]
