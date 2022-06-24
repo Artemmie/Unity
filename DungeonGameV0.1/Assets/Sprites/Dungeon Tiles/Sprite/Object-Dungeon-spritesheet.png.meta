@@ -302,6 +302,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -310,9 +312,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 1
     aniso: 16
-    mipBias: -100
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -333,9 +335,12 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
@@ -2256,6 +2261,96 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Paper-note1: 21300012
+      Floor3: 21300168
+      Torture-cage1: 21300048
+      Floor7: 21300170
+      Stairs: 21300156
+      Saint-statue: 21300078
+      Floor6: 21300174
+      Tomb-stone1: 21300044
+      Statue-base: 21300076
+      Paper-note2: 21300030
+      Column-catacomb: 21300034
+      Window4: 21300102
+      Guillotine-handle: 21300018
+      Hole: 21300082
+      Base-wall-middle: 21300154
+      Window3: 21300100
+      Torture-device2: 21300008
+      Torture-cage4: 21300054
+      Chandelier4: 21300068
+      Wall-top-corner-out: 21300150
+      Jail-door-middle: 21300130
+      Torture-device1: 21300006
+      Guillotine-robe: 21300020
+      Floor4: 21300176
+      Coffin-loot1: 21300090
+      Coffin: 21300180
+      Guillotine-blade: 21300070
+      Land-pit: 21300126
+      Floor1: 21300164
+      Column-wall: 21300026
+      Cell-door-iron: 21300120
+      Floor2: 21300166
+      Chandelier3: 21300064
+      Substance1: 21300000
+      Substance2: 21300002
+      Rite-circle: 21300074
+      Brick: 21300014
+      Wall-bottom-corner-out: 21300088
+      Prisoner3: 21300086
+      Prison-bed-front: 21300092
+      Window1: 21300096
+      Coffin-loot3: 21300118
+      Wall-top: 21300148
+      Skull: 21300024
+      Wall-side: 21300182
+      Guillotine-body: 21300028
+      Flag-old: 21300116
+      Floor8: 21300162
+      Coffin-loot2: 21300106
+      Floor9: 21300172
+      Gate1: 21300132
+      Jail-door-side: 21300128
+      Substance3: 21300038
+      Coffin-loot5: 21300124
+      Rib: 21300016
+      Gate3: 21300136
+      Prison-bed-side: 21300080
+      Gate2: 21300134
+      Prison-chain: 21300072
+      Prisoner1: 21300084
+      Well: 21300110
+      Gold: 21300058
+      Floor10: 21300178
+      Coffin-loot4: 21300122
+      Stairs-down: 21300094
+      Tomb-stone2: 21300046
+      Base-wall-side: 21300144
+      Column: 21300036
+      Chandelier2: 21300062
+      Floor5: 21300160
+      Flag: 21300114
+      Ruin: 21300040
+      Pit-camp: 21300004
+      Torture-cage3: 21300052
+      Frame: 21300112
+      Cell-door-wood: 21300108
+      Floor-lift: 21300158
+      Column-broken: 21300056
+      Window2: 21300098
+      Wall-bottom: 21300140
+      Brick-note: 21300010
+      Torture-cage2: 21300050
+      Bones: 21300022
+      Prisoner2: 21300104
+      Substance4: 21300042
+      Chandelier1: 21300060
+      Ripped-note: 21300032
+      Wall-bottom-corner-in: 21300184
+      Wall-top-corner-in: 21300142
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

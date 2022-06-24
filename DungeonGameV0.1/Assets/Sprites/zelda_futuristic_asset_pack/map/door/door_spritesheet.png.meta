@@ -89,6 +89,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -97,9 +99,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -120,9 +122,12 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
@@ -636,6 +641,29 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      door_spritesheet_8: 7712312684117137078
+      door_spritesheet_15: -2022490356618705710
+      door_spritesheet_0: 2819815934189153119
+      door_spritesheet_9: 7332583939285917570
+      door_spritesheet_2: 6999095617014317561
+      door_spritesheet_20: 2551067498230559868
+      door_spritesheet_10: -4980135293401916020
+      door_spritesheet_21: 7636678223164372819
+      door_spritesheet_5: -5093223005092280381
+      door_spritesheet_13: -2023348473530946833
+      door_spritesheet_6: -775292544018511369
+      door_spritesheet_18: -4855924643695528600
+      door_spritesheet_11: 2728755625453059962
+      door_spritesheet_14: 9206858635588729524
+      door_spritesheet_19: -6815077477099408687
+      door_spritesheet_1: 3501540814251876656
+      door_spritesheet_12: 6970794016242295515
+      door_spritesheet_7: 7670423398620426340
+      door_spritesheet_16: 8714636686387172215
+      door_spritesheet_3: -6423995436355084650
+      door_spritesheet_4: 8963397274556278440
+      door_spritesheet_17: -696187312962143901
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
