@@ -45,6 +45,8 @@ Temporary Items
 /[Bb]uilds/
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
+*/Library/PackageCache/com.unity.burst@1.6.5/.Runtime/hostlin/lld
+*/Library/PackageCache/com.unity.burst@1.6.5/.Runtime/hostmac/lld
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
@@ -583,7 +585,3 @@ FodyWeavers.xsd
 # Additional files built by Visual Studio
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,visualstudio,unity,unrealengine
-DungeonGameV0.1/Library/PackageCache/com.unity.burst@1.6.5/.Runtime/hostlin/lld
-DungeonGameV0.1/Library/PackageCache/com.unity.burst@1.6.5/.Runtime/hostmac/lld
-ThirdPersonRPG/Library/PackageCache/com.unity.burst@1.6.5/.Runtime/hostlin/lld
-ThirdPersonRPG/Library/PackageCache/com.unity.burst@1.6.5/.Runtime/hostmac/lld
