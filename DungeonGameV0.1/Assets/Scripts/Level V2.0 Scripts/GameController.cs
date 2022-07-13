@@ -6,10 +6,12 @@ using UnityEngine.SceneManagement;
 public class GameController : MonoBehaviour
 {
     public static GameController instance;
-    private static float health = 6;
-    private static int maxHealth = 6;
+    private static float health = 50;
+    private static int maxHealth = 50;
     private static float moveSpeed = 5f;
+    private static float maxMoveSpeed = 15f;
     private static float fireRate = 0.5f;
+    private static float maxFireRate = 0f;
     private static float bulletSize = 0.5f;
 
     public static float Health{ get => health; set => health = value; }
@@ -37,11 +39,13 @@ public class GameController : MonoBehaviour
     }
     public static void MoveSpeedChange(float speedAmount)
     {
-        moveSpeed += speedAmount; 
+        //moveSpeed += speedAmount; 
+        moveSpeed = Mathf.Min(maxMoveSpeed, moveSpeed + speedAmount);
     }
     public static void FireRateChange(float fireRateAmount)
     {
-        fireRate -= fireRateAmount;
+        //fireRate -= fireRateAmount;
+        fireRate = Mathf.Max(maxFireRate, fireRate - fireRateAmount);
     }
     public static void BulletSizeChange(float bulletSizeAmount)
     {
