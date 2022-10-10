@@ -45,8 +45,7 @@ Temporary Items
 /[Bb]uilds/
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
-*/Library/PackageCache/com.unity.burst@1.6.5/.Runtime/hostlin/lld
-*/Library/PackageCache/com.unity.burst@1.6.5/.Runtime/hostmac/lld
+*/Library/
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
