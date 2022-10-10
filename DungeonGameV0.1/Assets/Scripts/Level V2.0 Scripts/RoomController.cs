@@ -32,15 +32,14 @@ public class RoomController : MonoBehaviour
     }
     private void Update() 
     {
-        UpdateRoomQueue();
+        if (!isLoadingRoom)
+        {
+            UpdateRoomQueue();
+        }
     }
 
     private void UpdateRoomQueue()
     {
-        if (isLoadingRoom)
-        {
-            return;
-        }
         if (LoadRoomQueue.Count == 0)
         {
             if (!spawnedBossRoom)

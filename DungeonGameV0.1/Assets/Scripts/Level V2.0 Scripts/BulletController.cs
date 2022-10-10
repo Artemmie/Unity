@@ -26,9 +26,7 @@ public class BulletController : MonoBehaviour
             currPos = transform.position;
             transform.position = Vector2.MoveTowards(transform.position, playerPos, 5f * Time.deltaTime);
             if (currPos == lastPos)
-            {
                 Destroy(gameObject);
-            }
             lastPos = currPos;
         }
     }
@@ -58,8 +56,6 @@ public class BulletController : MonoBehaviour
     private void OnTriggerExit2D(Collider2D other) 
     {
         if (other.tag == "Wall")
-        {
             Destroy(gameObject);
-        }
     }
 }
